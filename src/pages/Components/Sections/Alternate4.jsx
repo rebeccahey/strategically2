@@ -20,11 +20,11 @@ class Alternate4 extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <div css={{'@media (min-width: 300px) and (max-width: 800px)': 
+      <div css={{'@media (min-width: 300px) and (max-width: 800px)':
           {padding: "0px!important"}}} className={classes.section}>
         <div className={classes.container}>
           <GridContainer justify="center">
-            
+
             <div css={{'@media (min-width: 300px) and (max-width: 800px)': {display: "flex", flexFlow: "column"}, '@media (min-width: 800px)': {display: "flex", flexFlow: "row"}}}>
 
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "2"}}}>
@@ -36,13 +36,15 @@ class Alternate4 extends React.Component {
               <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "0px"}, '@media (min-width: 800px)': {paddingRight: "50px", paddingTop: "0px"}}}>
                 <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "0px"}}}>We create content that ranks and helps you rank</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_______________</h6>
-                <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>04: Grow</h4>
-                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Our marketing services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth.
+                <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>04: Content Marketing</h4>
+                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>We take a scientific approach to creating and promoting content that ranks. Complete B2B content marketing services all under one roof.
                 </h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
+                  <Link to="./contact">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    Learn More
+                    Get in Touch
                   </Button>
+                  </Link>
                 </div>
               </div>
            </GridItem>

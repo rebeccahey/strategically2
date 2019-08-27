@@ -12,8 +12,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Strategically.co London B2B and SaaS SEO Agency',
+        short_name: 'Strategically.c',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',

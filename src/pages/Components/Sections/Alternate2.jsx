@@ -20,7 +20,7 @@ class Alternate2 extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <div css={{'@media (min-width: 300px) and (max-width: 800px)': 
+      <div css={{'@media (min-width: 300px) and (max-width: 800px)':
           {padding: "0px!important"}}} className={classes.section}>
         <div className={classes.container}>
           <GridContainer justify="center" style={{display: 'block'}}>
@@ -36,12 +36,14 @@ class Alternate2 extends React.Component {
               <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "0px"}, '@media (min-width: 800px)': {paddingRight: "70px", paddingTop: "0px"}}}>
                 <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "-50px"}}}>We build beautiful software your customers will love</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_______________</h6>
-                <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>02: Build</h4>
-                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Our developers build complex interfaces with agile methodologies to allow for quick iterations and speedy development.</h5>
+                <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>02: Front & Back End Development</h4>
+                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Our developers build complex interfaces with agile methodologies to allow for quick iterations and efficient development.</h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
+                  <Link to="./contact">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    Learn More
+                    Get in Touch
                   </Button>
+                  </Link>
                 </div>
               </div>
             </GridItem>

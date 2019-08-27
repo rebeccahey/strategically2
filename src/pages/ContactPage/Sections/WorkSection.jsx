@@ -15,7 +15,7 @@ import workStyle from "assets/jss/material-kit-react/views/landingPageSections/w
 class WorkSection extends React.Component {
   render() {
     const { classes } = this.props;
-    
+
 
     return (
       <div className={classes.section}>
@@ -40,7 +40,7 @@ class WorkSection extends React.Component {
                     }}
                   />
                 </GridItem>
-                
+
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
                     labelText="Your Email"

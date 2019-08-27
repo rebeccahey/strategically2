@@ -29,7 +29,7 @@ function Footer({ ...props }) {
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
               <a
                 href="https://strategically.co/"
-                css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '700', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
+                css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
                 target="_blank"
               >
                 Home
@@ -38,7 +38,7 @@ function Footer({ ...props }) {
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
               <a
                 href="https://medium.com/strategically/step-1-understanding-business-goals-audiences-and-value-propositions-55feb4a1128c"
-                css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '700', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
+                css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
                 target="_blank"
               >
                 Strategy Process
@@ -47,7 +47,7 @@ function Footer({ ...props }) {
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
               <a
                 href="https://strategically.co/contact"
-                css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '700', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
+                css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
                 target="_blank"
               >
                 Contact

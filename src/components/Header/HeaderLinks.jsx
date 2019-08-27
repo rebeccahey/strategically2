@@ -38,7 +38,7 @@ function HeaderLinks({ ...props }) {
       </Button>
     </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="./ContactPage/ContactPage">
+        <Link to="./contact">
           <Button
             color="transparent"
             target=""
@@ -48,7 +48,7 @@ function HeaderLinks({ ...props }) {
            Contact
           </Button>
         </Link>
-        
+
       </ListItem>
     </List>
   );

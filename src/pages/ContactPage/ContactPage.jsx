@@ -1,6 +1,8 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
+// react components for routing our app without refresh
+import { Link } from "gatsby";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
@@ -33,10 +35,12 @@ class ContactPage extends React.Component {
     return (
       <div>
         <div className={classNames(classes.main, classes.mainRaised2)}>
+          <Link to="./">
           <Header
           color="white"
           brand="Strategically"
            />
+           </Link>
           <div className={classes.container}>
             <WorkSection />
           </div>
