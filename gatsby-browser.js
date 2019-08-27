@@ -1,0 +1,1 @@
+require('./src/assets/css/global.css')

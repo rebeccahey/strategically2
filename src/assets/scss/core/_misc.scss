@@ -1,0 +1,154 @@
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-size: 1rem;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "pt-serif";
+  font-weight: 300;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+}
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+h4,
+h5,
+h6 {
+  margin-top: 10px;
+  margin-bottom: 1.4rem;
+}
+h1 {
+  font-size: 5.3125rem;
+  line-height: 1.15em;
+  color: #ffffff;
+  font-weight: 525;
+}
+h2 {
+  font-size: 3.70rem;
+  line-height: 1.2em;
+  color: #1E2122;
+  text-align: left;
+  font-weight: 500;
+  margin-top: 75px;
+
+}
+h3 {
+  font-size: 1.225rem;
+  line-height: 1.4em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  margin-top: 35px;
+}
+h4 {
+  font-size: 2.12rem;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-align: left;
+  color: #1E2122;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+h5 {
+  font-size: 1.12rem;
+  line-height: 1.5em;
+  font-weight: 400;
+  text-align: left;
+  color: #1E2122;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+h6 {
+  font-size: 1.7125rem;
+  font-weight: 500;
+  font-family: "pt-serif";
+  color: #1E2122;
+  text-align: left;
+}
+p {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+html {
+  font-family: pt-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background-color: #ffffff;
+  color: $black-color;
+  margin: 0;
+  font-size: 1.4rem;
+  text-align: left;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  overflow-x: hidden;
+}
+h1 {
+  text-align: center;
+}
+
+
+legend {
+  border-bottom: 0;
+}
+
+// Prevent highlight on mobile
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  &:focus {
+    outline: 0;
+  }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    color: darken($link-color, 5%);
+    text-decoration: none;
+  }
+}
+
+label {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: $checkboxes-text-color;
+  font-weight: 400;
+}
+small {
+  font-size: 75%;
+  color: #777;
+  font-weight: 400;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+form {
+  margin-bottom: 1.125rem;
+}
