@@ -27,13 +27,12 @@ function Footer({ ...props }) {
         <div css={{display: 'block'}}>
           <List className={classes.list} style={{textAlign: 'center'}}>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
-              <a
-                href="https://strategically.co/"
+              <link to="./"
                 css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
                 target="_blank"
               >
                 Home
-              </a>
+              </link>
             </li>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
               <a
@@ -45,13 +44,12 @@ function Footer({ ...props }) {
               </a>
             </li>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
-              <a
-                href="https://strategically.co/contact"
+              <link to="./contact"
                 css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
                 target="_blank"
               >
                 Contact
-              </a>
+              </link>
             </li>
           </List>
         </div>
