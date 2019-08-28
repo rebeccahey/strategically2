@@ -33,8 +33,6 @@ import SectionDownload from "./Sections/SectionDownload.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
-import Typing from 'react-typing-animation';
-
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;

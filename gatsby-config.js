@@ -1,7 +1,8 @@
 module.exports = {
   pathPrefix: `/mini-gatsbyv2-material-kit-react`,
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Strategically.co',
+
   },
   plugins: [
     'gatsby-plugin-resolve-src',
@@ -13,7 +14,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Strategically.co London B2B and SaaS SEO Agency',
-        short_name: 'Strategically.c',
+        short_name: 'Strategically.co',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
