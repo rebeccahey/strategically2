@@ -6,6 +6,9 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { List, ListItem, withStyles } from "@material-ui/core";
 
+// react components for routing our app without refresh
+import { Link } from "gatsby";
+
 // @material-ui/icons
 import Favorite from "@material-ui/icons/Favorite";
 
@@ -27,12 +30,12 @@ function Footer({ ...props }) {
         <div css={{display: 'block'}}>
           <List className={classes.list} style={{textAlign: 'center'}}>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
-              <link to="./"
+              <Link to="./"
                 css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
                 target="_blank"
               >
                 Home
-              </link>
+              </Link>
             </li>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
               <a
@@ -44,12 +47,12 @@ function Footer({ ...props }) {
               </a>
             </li>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
-              <link to="./contact"
+              <Link to="./contact"
                 css={{color: '#1e2122', display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
                 target="_blank"
               >
                 Contact
-              </link>
+              </Link>
             </li>
           </List>
         </div>

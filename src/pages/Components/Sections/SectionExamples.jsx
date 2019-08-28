@@ -38,7 +38,7 @@ class SectionExamples extends React.Component {
                 textAlign: "center"}, '@media (min-width: 800px)': {paddingLeft: "70px",
                 paddingRight: "70px",paddingTop: "15px",textAlign: "center"}}}>The complete guide to keyword research</h4>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "30px",paddingRight: "30px",textAlign: "center"}, '@media (min-width: 800px)': {paddingLeft: "100px",paddingRight: "100px",textAlign: "center"}}}>The essential process to reverse engineer website architecture and content strategy based on available search demand.</h5>
-                <a href="https://medium.com/strategically/step-5-analysing-the-competitive-landscape-11b7db46e9e2">
+                <a href="https://medium.com/strategically/step-2-keyword-research-based-on-the-target-audience-7037db2c1280">
                 <Button color="primary" size="lg">
                     Read More
                 </Button>
