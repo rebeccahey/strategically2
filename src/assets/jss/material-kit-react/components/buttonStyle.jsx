@@ -77,6 +77,15 @@ const buttonStyle = {
       transition: "color 350ms,background-color 350ms,border-color 350ms",
     }
   },
+  primary2: {
+    color: "black",
+    textTransform: "uppercase",
+    textAlign: "left",
+    "&:hover,&:focus": {
+      backgroundColor: "#FFFFF",
+      transition: "color 350ms,background-color 350ms,border-color 350ms",
+    }
+  },
   info: {
     backgroundColor: infoColor,
     boxShadow:

@@ -23,8 +23,6 @@ import contactPageStyle from "assets/jss/material-kit-react/views/ContactPageSty
 
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.jsx";
-import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
 
 const dashboardRoutes = [];

@@ -15,26 +15,10 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionBasics from "./Sections/SectionBasics.jsx";
-import SectionNavbars from "./Sections/SectionNavbars.jsx";
-import SectionTabs from "./Sections/SectionTabs.jsx";
-import OverviewSection from "./Sections/OverviewSection.jsx";
-import Alternate1 from "./Sections/Alternate1.jsx";
-import Alternate2 from "./Sections/Alternate2.jsx";
-import Alternate3 from "./Sections/Alternate3.jsx";
-import Alternate4 from "./Sections/Alternate4.jsx";
-import SectionNotifications from "./Sections/SectionNotifications.jsx";
-import SectionTypography from "./Sections/SectionTypography.jsx";
-import SectionJavascript from "./Sections/SectionJavascript.jsx";
-import SectionCarousel from "./Sections/SectionCarousel.jsx";
-import SectionExamples from "./Sections/SectionExamples.jsx";
-import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
-import SectionLogin from "./Sections/SectionLogin.jsx";
-import SectionDownload from "./Sections/SectionDownload.jsx";
+import OverviewSection from "./Sectionsaudit/OverviewSection.jsx";
+import SectionExamples from "./Sectionsaudit/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-
-import Typing from 'react-typing-animation';
 
 class Components extends React.Component {
   render() {
@@ -58,30 +42,17 @@ class Components extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
-              <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px", paddingTop: "500px",
+              <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
               fontSize: "40px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "260px", fontSize: "70px", paddingTop: "200px"}}}>The Leading Digital Strategy Agency for B2B and SaaS</h1>
-              <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px"}, '@media (min-width: 800px)': {textAlign: "left",
-              paddingLeft: "200px", paddingRight: "200px"}}}>
-              _______________</h3>
-              <h3 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px", paddingBottom: "450px"},
-              '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "200px", paddingBottom: "150px"}}}>
-                Our marketing and development services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth.
-              </h3>
+              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>SEO Site Evaluation That Goes Beyond Typical SEO</h1>
               </GridItem>
             </GridContainer>
           </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
         <OverviewSection />
-        <Alternate1 />
-        <h1>hello</h1>
-        <Alternate2 />
-        <Alternate3 />
-        <Alternate4 />
         <SectionExamples />
     </div>
         <div className={classes.conatinerCta}>

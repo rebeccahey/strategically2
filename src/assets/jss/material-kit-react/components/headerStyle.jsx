@@ -103,10 +103,16 @@ const headerStyle = {
       "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(233, 30, 99, 0.46)"
   },
   transparent: {
-    backgroundColor: "#e83e33 !important",
+    backgroundColor: "#E83E33",
     boxShadow: "none",
     paddingTop: "25px",
-    color: "#FFFFFF"
+    color: "#ffffff"
+  },
+  opaque: {
+    backgroundColor: "rgba(45, 45, 45, 0.1)",
+    boxShadow: "none",
+    paddingTop: "25px",
+    color: "#ffffff"
   },
   dark: {
     color: "#FFFFFF",

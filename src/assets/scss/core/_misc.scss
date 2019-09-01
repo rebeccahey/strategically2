@@ -61,7 +61,7 @@ h3 {
   margin-top: 35px;
 }
 h4 {
-  font-size: 2.12rem;
+  font-size: 1.90rem;
   line-height: 1.5em;
   font-weight: 600;
   text-align: left;
@@ -84,8 +84,11 @@ h6 {
   text-align: left;
 }
 p {
-  font-size: 14px;
-  margin: 0 0 10px;
+  font-size: 1.4125rem;
+  font-weight: 500;
+  font-family: "pt-serif";
+  color: #1E2122;
+  text-align: left;
 }
 html {
   font-family: pt-serif;
@@ -129,7 +132,7 @@ a {
   background-color: transparent;
   &:hover,
   &:focus {
-    color: darken($link-color, 5%);
+    color: #1E2122;
     text-decoration: none;
   }
 }
