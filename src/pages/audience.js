@@ -1,5 +1,5 @@
 import React from "react";
-import IntelligencePage from "./Intelligence/IntelligencePage";
+import IntelligencePage from "./intelligence/intelligencePage";
 
 export default () => (
   <IntelligencePage/>
