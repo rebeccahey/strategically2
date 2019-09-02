@@ -1,5 +1,5 @@
 import React from "react";
-import StrategyPage from "./Strategy/StrategyPage";
+import StrategyPage from "./strategy/strategyPage";
 
 export default () => (
   <StrategyPage/>
