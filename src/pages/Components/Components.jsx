@@ -55,9 +55,9 @@ class Components extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
-                  <h1 css={{'@media (min-width: 300px) and (max-width: 350px)': {paddingTop: '75px', marginTop: "0px", fontSize: "40px"},'@media (min-width: 350px) and (max-width: 800px)': {paddingTop: "0px", marginTop: "0px", fontSize: "50px"}}}>We design extraordinary customer experiences</h1>
+                  <h1 css={{'@media (min-width: 300px) and (max-width: 350px)': {paddingTop: '75px', marginTop: "0px", fontSize: "40px"},'@media (min-width: 350px) and (max-width: 800px)': {paddingTop: "0px", marginTop: "0px", fontSize: "50px"}}}>Strategy and software to help you grow faster</h1>
                   <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", fontSize: "20px"}, '@media (min-width: 800px)': {paddingLeft: "75px", paddingRight: "75px"}}}>
-                    We deliver meaningful and lasting results for clients by improving the experiences of their users. Learn more about our unique approach to services and broad portfolio of work.
+                   Our marketing and development services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth.
                   </h3>
               </GridItem>
             </GridContainer>
