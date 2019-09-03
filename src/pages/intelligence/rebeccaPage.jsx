@@ -15,12 +15,10 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import OverviewSection from "./Sectionstest/OverviewSection.jsx";
-import SectionExamples from "./Sectionstest/SectionExamples.jsx";
+import OverviewSection from "./Sectionsintelligence/OverviewSection.jsx";
+import SectionExamples from "./Sectionsintelligence/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-
-import Typing from 'react-typing-animation';
 
 class Components extends React.Component {
   render() {
@@ -44,18 +42,14 @@ class Components extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
-              <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px", paddingTop: "500px",
+              <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
               fontSize: "40px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "260px", fontSize: "70px", paddingTop: "200px"}}}>Audience-focused organic search engine marketing</h1>
-              <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px"}, '@media (min-width: 800px)': {textAlign: "left",
-              paddingLeft: "200px", paddingRight: "200px"}}}>
-              _______________</h3>
-              <h3 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px", paddingBottom: "450px"},
-              '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "200px", paddingBottom: "150px"}}}>
-                Our SEO is purely white-hat, analytics driven and aimed at attracting and converting quality leads.
+              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Competitive Intelligence & Positioning</h1>
+              <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "left",
+              paddingLeft: "200px", paddingRight: "300px"}}}>
+              Great business decisions are made when keen insight meets reliable data.
               </h3>
               </GridItem>
             </GridContainer>
