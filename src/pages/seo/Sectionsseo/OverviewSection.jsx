@@ -22,7 +22,7 @@ class OverviewSection extends React.Component {
     return (
       <div className={classes.section}>
         <div className={classes.container}>
-        <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}}}>
+        <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
              <h4>Search Engine Optimisation</h4>

@@ -31,6 +31,7 @@ class SectionExamples extends React.Component {
                   className={
                     classes.imgBlog
                   }
+                  css={{'@media (min-width: 300px) and (max-width: 800px)':{width: '100%!important'},'@media (min-width: 800px)':{width: 'auto!important'}}}
                 />
                 </a>
                 <div style={{ textAlign: "center"}}>
@@ -53,6 +54,7 @@ class SectionExamples extends React.Component {
                   className={
                     classes.imgBlog
                   }
+                  css={{'@media (min-width: 300px) and (max-width: 800px)':{width: '100%!important'},'@media (min-width: 800px)':{width: 'auto!important'}}}
                 />
                 </a>
                 <div style={{ textAlign: "center"}}>

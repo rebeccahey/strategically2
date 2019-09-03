@@ -22,9 +22,9 @@ class Alternate1 extends React.Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.section}>
+      <div css={{padding: "0px!important"}} className={classes.section}>
         <div css={{'@media (min-width: 300px) and (max-width: 800px)':
-          {padding: "0px!important"}}} className={classes.section}>
+          {padding: "0px!important"},backgroundColor: "#fff", padding: "0px!important"}} className={classes.section}>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
               <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px"}, '@media (min-width: 800px)': {paddingLeft: "70px"}}}>

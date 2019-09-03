@@ -21,10 +21,10 @@ class Alternate2 extends React.Component {
     const { classes } = this.props;
     return (
       <div css={{'@media (min-width: 300px) and (max-width: 800px)':
-          {padding: "0px!important"}}} className={classes.section}>
+          {padding: "0px!important"}, backgroundColor: "#fff"}} className={classes.section}>
         <div className={classes.container}>
           <GridContainer justify="center" style={{display: 'block'}}>
-            <div css={{'@media (min-width: 300px) and (max-width: 800px)': {display: "flex", flexFlow: "column"}, '@media (min-width: 800px)': {display: "flex", flexFlow: "row"}}}>
+            <div css={{'@media (min-width: 300px) and (max-width: 800px)': {backgroundColor: "#fff", display: "flex", flexFlow: "column"}, '@media (min-width: 800px)': {backgroundColor: "#fff", display: "flex", flexFlow: "row"}}}>
 
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "2"}}}>
               <img
@@ -32,7 +32,7 @@ class Alternate2 extends React.Component {
                 css={{'@media (min-width: 300px) and (max-width: 800px)': {width: "130vw"}}}
               />
             </GridItem>
-            <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "1"}}}>
+            <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "1"}, backgroundColor: "#fff"}}>
               <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "0px"}, '@media (min-width: 800px)': {paddingRight: "70px", paddingTop: "0px"}}}>
                 <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "-50px"}}}>We build beautiful software your customers will love</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_______________</h6>
