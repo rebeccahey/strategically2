@@ -15,8 +15,8 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import OverviewSection from "./Sectionsseo2/OverviewSection.jsx";
-import SectionExamples from "./Sectionsseo2/SectionExamples.jsx";
+import OverviewSection from "./Sectionstest/OverviewSection.jsx";
+import SectionExamples from "./Sectionstest/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
