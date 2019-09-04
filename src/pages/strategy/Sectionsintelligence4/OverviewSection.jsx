@@ -26,19 +26,25 @@ class OverviewSection extends React.Component {
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
              <div style={{textAlign: "left"}}>
-             <p>Strategically combines top tier tools and fervent data nerds to gather and organise information about your customers and competitors.</p>
-             <p>So if digging through a mountain of data isn’t your idea of a good time, have no fear, we actually get a little excited about this.</p>
-             <h4>Competitive Landscape Analysis</h4>
-             <p>What do you really know about your competitors and what they're doing on the web?</p>
-             <p>It's nearly impossible to position yourself to move ahead of them if you don't know what's making them successful and where their weaknesses are.</p>
-             <p>Competitive intel from Strategically dives deep into website features, content, popularity measures (social media activity and site user behaviors), and brand sentiment (what people like or don't like).</p>
-             <p>This determines which competitors have the upper hand, and why and how you can take actions to not only compete, but stride ahead.  <Link to="./intelligence/competition/">Learn more.</Link></p>
-             <h4>Audience Targeting</h4>
-             <p>Do you know your target audiences? Do you know what they need, what they want? Do you know what they’re into, where they're interacting online, and who they really are?</p>
-             <p>If you don't know your audiences and their specific needs right now, your likely not attracting and converting them as well as you should be.</p>
-             <p> And, you may be missing the mark in your marketing messaging, while the competition snatches them up and takes them away.</p>
-             <p>Strategically can help you define your audiences, determine what they need/want the most and craft content strategies to attract and convert those audiences. <Link to="./intelligence/audience/">Learn more.</Link></p>
+             <h4>What is Content Strategy?</h4>
+             <p>
+             <ul>
+              <li>Content strategy determines exactly what to produce (editorial content, videos, tools, etc.) to attract new visitors, retain and engage existing audiences, and promote natural sharing and links to your website.</li>
+              <li>Research that goes into content strategy typically also provides insights and feedback that can go into making a better product.</li>
+              </ul>
+              </p>
+              <h4>Why Content Strategy?</h4>
+              <p>Building it does not always mean they will come (and engage, and buy, and share). Content without strategy can be a monumental waste of valuable time and resources.</p>
+              <p>The right content can:</p>
+              <p>
+              <ul>
+               <li>Tap into your target audiences interests, desires and emotions.</li>
+               <li>Attract and engage new visitors and highly qualified leads.</li>
+               <li>Create brand advocates who talk about and share your content and brand assets beyond your website.</li>
+               </ul>
+               </p>
              </div>
+             <p><Link to="./content-marketing">Learn more about the Strategically content strategy process.</Link></p>
           </GridItem>
           </GridContainer>
         </div>

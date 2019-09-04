@@ -46,10 +46,10 @@ class Components extends React.Component {
               fontSize: "40px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Competitive Intelligence & Positioning</h1>
+              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Website Content Strategy</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "left",
               paddingLeft: "200px", paddingRight: "300px"}}}>
-              Great business decisions are made when keen insight meets reliable data.
+              It's SEO-focused, customer-centric cotent — and it's hugely effective.
               </h3>
               </GridItem>
             </GridContainer>
