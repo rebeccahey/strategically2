@@ -26,18 +26,19 @@ class OverviewSection extends React.Component {
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
              <div style={{textAlign: "left"}}>
-             <p>Strategically combines top tier tools and fervent data nerds to gather and organise information about your customers and competitors.</p>
-             <p>So if digging through a mountain of data isn’t your idea of a good time, have no fear, we actually get a little excited about this.</p>
-             <h4>Competitive Landscape Analysis</h4>
-             <p>What do you really know about your competitors and what they're doing on the web?</p>
-             <p>It's nearly impossible to position yourself to move ahead of them if you don't know what's making them successful and where their weaknesses are.</p>
-             <p>Competitive intel from Strategically dives deep into website features, content, popularity measures (social media activity and site user behaviors), and brand sentiment (what people like or don't like).</p>
-             <p>This determines which competitors have the upper hand, and why and how you can take actions to not only compete, but stride ahead.  <Link to="./intelligence/competition/">Learn more.</Link></p>
-             <h4>Audience Targeting</h4>
-             <p>Do you know your target audiences? Do you know what they need, what they want? Do you know what they’re into, where they're interacting online, and who they really are?</p>
-             <p>If you don't know your audiences and their specific needs right now, your likely not attracting and converting them as well as you should be.</p>
-             <p> And, you may be missing the mark in your marketing messaging, while the competition snatches them up and takes them away.</p>
-             <p>Strategically can help you define your audiences, determine what they need/want the most and craft content strategies to attract and convert those audiences. <Link to="./intelligence/audience/">Learn more.</Link></p>
+             <p>SEO content strategy starts with a comprehensive look at the entire industry you are trying to reach.</p>
+             <p>It goes beyond auditing the search performance of the current site and includes strategy for how to attract, engage and convert qualified leads through organic search and other inbound marketing channels.</p>
+             <p>Content strategy is the first step in search optimisation, where audience needs and competitive landscape determine the approach for content to build, how to build it, and how to market, measure and maintain it over time. This is especially important in competitive verticals online.</p>
+             <h4>Organic SEO content strategy includes:</h4>
+             <p>
+             <ul>
+              <li><strong>Audience targeting:</strong> Identifying, prioritising, and determining the demands of your audience(s) in search.</li>
+              <li><strong>Competitive landscape analysis:</strong> Who's doing it right, what are they doing, and how can you do even better?</li>
+              <li><strong>Opportunity analysis:</strong> Where are the largest opportunities and how are they prioritised?</li>
+              <li><strong>Actionable recommendations:</strong> Strategy for meeting those opportunities based on current performance, competitive landscape and resources required to get there.</li>
+              </ul>
+              </p>
+              <p><Link to="./contact">Get started today.</Link></p>
              </div>
           </GridItem>
           </GridContainer>
