@@ -28,15 +28,71 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
     <ListItem className={classes.listItem}>
-      <Button
-        href="https://medium.com/strategically/step-1-understanding-business-goals-audiences-and-value-propositions-55feb4a1128c"
-        color="transparent"
-        target="_blank"
-        className={classes.navLink}
-      >
-       Strategy Process
-      </Button>
+    <CustomDropdown
+      noLiPadding
+      buttonText="Competitive Analysis"
+      buttonProps={{
+        className: classes.navLink,
+        color: "transparent"
+      }}
+      dropdownList={[
+        <Link to="./intelligence" className={classes.dropdownLink}>
+          Competitive Intelligence
+        </Link>,
+        <Link to="./intelligence/competition" className={classes.dropdownLink}>
+          Competitive Landscape
+        </Link>,
+        <Link to="./intelligence/audience" className={classes.dropdownLink}>
+          Audience Targeting
+        </Link>
+      ]}
+    />
     </ListItem>
+    <ListItem className={classes.listItem}>
+    <CustomDropdown
+      noLiPadding
+      buttonText="Content Strategy"
+      buttonProps={{
+        className: classes.navLink,
+        color: "transparent"
+      }}
+      dropdownList={[
+        <Link to="./strategy" className={classes.dropdownLink}>
+          Content Marketing
+        </Link>,
+        <Link to="./strategy/content" className={classes.dropdownLink}>
+          Content Strategy
+        </Link>,
+        <Link to="./strategy/content-marketing" className={classes.dropdownLink}>
+          Content Marketing Strategy
+        </Link>
+      ]}
+    />
+    </ListItem>
+    <ListItem className={classes.listItem}>
+    <CustomDropdown
+      noLiPadding
+      buttonText="SEO"
+      buttonProps={{
+        className: classes.navLink,
+        color: "transparent"
+      }}
+      dropdownList={[
+        <Link to="./seo" className={classes.dropdownLink}>
+          SEO
+        </Link>,
+        <Link to="./seo/audit" className={classes.dropdownLink}>
+          SEO Site Audit
+        </Link>,
+        <Link to="./seo/strategy" className={classes.dropdownLink}>
+          SEO Content Strategy
+        </Link>,
+        <Link to="./seo/in-house" className={classes.dropdownLink}>
+          In-House SEO Setup
+        </Link>
+      ]}
+    />
+  </ListItem>
       <ListItem className={classes.listItem}>
         <Link to="./contact">
           <Button
