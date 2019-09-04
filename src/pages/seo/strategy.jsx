@@ -15,12 +15,10 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import OverviewSection from "./Sectionsstrategy/OverviewSection.jsx";
-import SectionExamples from "./Sectionsstrategy/SectionExamples.jsx";
+import OverviewSection from "./Sectionsintelligence3/OverviewSection.jsx";
+import SectionExamples from "./Sectionsintelligence3/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-
-import Typing from 'react-typing-animation';
 
 class Components extends React.Component {
   render() {
@@ -48,7 +46,11 @@ class Components extends React.Component {
               fontSize: "40px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>SEO Content Strategy: Attract & Convert Audiences</h1>
+              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Competitive Intelligence & Positioning</h1>
+              <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "left",
+              paddingLeft: "200px", paddingRight: "300px"}}}>
+              Great business decisions are made when keen insight meets reliable data.
+              </h3>
               </GridItem>
             </GridContainer>
           </div>
