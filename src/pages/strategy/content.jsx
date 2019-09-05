@@ -49,7 +49,7 @@ class Components extends React.Component {
               '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Website Content Strategy</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "left",
               paddingLeft: "200px", paddingRight: "300px"}}}>
-              It's SEO-focused, customer-centric cotent — and it's hugely effective.
+              It's SEO-focused, customer-centric content — and it's hugely effective.
               </h3>
               </GridItem>
             </GridContainer>
