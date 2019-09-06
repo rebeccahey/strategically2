@@ -40,9 +40,9 @@ class Alternate4 extends React.Component {
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>We take a scientific approach to creating and promoting content that ranks. Complete B2B content marketing services all under one roof.
                 </h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
-                  <Link to="./contact">
+                  <Link to="./strategy">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    Get in Touch
+                    Learn more
                   </Button>
                   </Link>
                 </div>

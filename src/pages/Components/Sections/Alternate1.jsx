@@ -33,9 +33,9 @@ class Alternate1 extends React.Component {
                 <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}} >01: SEO Strategy</h4>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>We save you time and money by providing you with a data-backed strategy, so you can stop guessing and start growing.</h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
-                  <Link to="./contact">
+                  <Link to="./seo">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                Get in Touch
+                Learn more
                 </Button>
                 </Link>
                 </div>
