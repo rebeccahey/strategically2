@@ -44,7 +44,7 @@ class OverviewSection extends React.Component {
                </ul>
                </p>
              </div>
-             <p><Link to=".strategy/content-marketing">Learn more about the Strategically content strategy process.</Link></p>
+             <p><Link to="./strategy/content-marketing">Learn more about the Strategically content strategy process.</Link></p>
           </GridItem>
           </GridContainer>
         </div>
