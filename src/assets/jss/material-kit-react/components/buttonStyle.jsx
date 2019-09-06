@@ -77,6 +77,15 @@ const buttonStyle = {
       transition: "color 350ms,background-color 350ms,border-color 350ms",
     }
   },
+  primaryweb: {
+    border: "2px solid black",
+    color: "black",
+      marginRight: "40px",
+    "&:hover,&:focus": {
+      backgroundColor: "#FFFFF",
+      transition: "color 350ms,background-color 350ms,border-color 350ms",
+    }
+  },
   primary2: {
     color: "black",
     textTransform: "uppercase",
