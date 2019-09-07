@@ -21,11 +21,10 @@ class Alternate2 extends React.Component {
     const { classes } = this.props;
     return (
       <div css={{'@media (min-width: 300px) and (max-width: 800px)':
-          {padding: "0px!important"}, backgroundColor: "#fff"}} className={classes.section}>
+        {padding: "0px!important"}, backgroundColor: "#fff"}} className={classes.section}>
         <div className={classes.container}>
           <GridContainer justify="center" style={{display: 'block'}}>
             <div css={{'@media (min-width: 300px) and (max-width: 800px)': {backgroundColor: "#fff", display: "flex", flexFlow: "column"}, '@media (min-width: 800px)': {backgroundColor: "#fff", display: "flex", flexFlow: "row"}}}>
-
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "2"}}}>
               <img
                 src={alternate2}
