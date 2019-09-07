@@ -15,8 +15,8 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import OverviewSection from "./Sectionsgatsby/OverviewSection.jsx";
-import SectionExamples from "./Sectionsgatsby/SectionExamples.jsx";
+import OverviewSection from "./Sectionsnode/OverviewSection.jsx";
+import SectionExamples from "./Sectionsnode/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
@@ -38,7 +38,7 @@ class Components extends React.Component {
         {...rest}
       />
         </Link>
-        <Parallax image={require("assets/img/Gatsby_development.webp")}>
+        <Parallax image={require("assets/img/Node_JS_development.webp")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
@@ -46,10 +46,10 @@ class Components extends React.Component {
               fontSize: "40px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Gatsby JS Development Company</h1>
+              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Node JS Development Company</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "left",
               paddingLeft: "200px", paddingRight: "300px"}}}>
-              Based on React, Gatsby is a free and open source framework for building lightening fast websites and apps.
+              Used by Netflix, Uber, Linkedin and Medium, Node JS is an open-source, cross-platform JavaScript run-time environment. Executing code outside of a browser, its event-based programming style means it is blazing fast and ultra powerful.
               </h3>
               </GridItem>
             </GridContainer>
