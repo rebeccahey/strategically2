@@ -15,7 +15,7 @@ import exampleStyle from "assets/jss/material-kit-react/views/componentsSections
 
 import landing from "assets/img/landing.jpg";
 import profile from "assets/img/profile.jpg";
-import alternate1 from "assets/img/alternate1.jpg";
+import node from "assets/img/node.jpg";
 
 
 class Alternate1 extends React.Component {
@@ -42,7 +42,7 @@ class Alternate1 extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={6}>
               <img style={{ width: `100%`,}}
-                src={alternate1}
+                src={node}
               />
             </GridItem>
           </GridContainer>

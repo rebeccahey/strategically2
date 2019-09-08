@@ -39,9 +39,9 @@ class Alternate4 extends React.Component {
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Our design teams creates beautiful software products that are intuitive, functional and a joy to use.
                 </h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
-                  <Link to="./strategy">
+                  <Link to="./contact">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    Get in touch
+                    Get in Touch
                   </Button>
                   </Link>
                 </div>
