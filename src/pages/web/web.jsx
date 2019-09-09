@@ -54,7 +54,7 @@ class Components extends React.Component {
             fontSize: "20px"},
             '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
             fontSize: "22px"},
-            '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "220px", paddingRight: "220px", fontSize: "22px"}}}>We provide outstanding software development expertise, seasoned product management and user experience designers.</h3>
+            '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "220px", paddingRight: "220px", fontSize: "22px"}}}>We build beautiful and functional software for B2B and SaaS companies by providing outstanding project management and software development expertise.</h3>
               </GridItem>
             </GridContainer>
           </div>
@@ -63,7 +63,6 @@ class Components extends React.Component {
         <Alternate1 />
         <Alternate2 />
         <Alternate3 />
-        <Alternate4 />
         <SectionExamples />
     </div>
         <div className={classes.conatinerCta}>

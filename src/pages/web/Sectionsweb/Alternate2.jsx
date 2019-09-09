@@ -34,15 +34,20 @@ class Alternate1 extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={6}>
               <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px"}, '@media (min-width: 800px)': {paddingLeft: "70px"}}}>
-                <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "50px"}}} >Backend Web Development</h2>
+                <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "50px"}}} >Frontend Development</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_________</h6>
-                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Rock-solid, reliable backend development ensures your business logic works as it should.</h5>
+                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Our frontend development is a blend of clean code, impeccable design and extreme usability, creating an experience your customers will love.</h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
-              <Link to="./web/node">
+              <Link to="./web/react">
               <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem", marginRight: "0px!important"}}} color="primaryweb" size="lg">
-            Node JS
+            React JS
             </Button>
             </Link>
+            <Link to="./web/gatsby/">
+            <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem", marginRight: "0px!important"}}} color="primaryweb" size="lg">
+          Gatsby
+          </Button>
+          </Link>
                 </div>
                </div>
             </GridItem>
