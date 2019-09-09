@@ -15,7 +15,7 @@ import exampleStyle from "assets/jss/material-kit-react/views/componentsSections
 
 import landing from "assets/img/landing.jpg";
 import profile from "assets/img/profile.jpg";
-import alternate1 from "assets/img/node.jpg";
+import alternate1 from "assets/img/alternate1.jpg";
 
 
 class Alternate1 extends React.Component {
