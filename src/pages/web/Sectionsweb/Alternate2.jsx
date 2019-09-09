@@ -37,12 +37,12 @@ class Alternate2 extends React.Component {
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_________</h6>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Frontend development sits at the intersection of three pillars: clean code, beautiful design and intuative usability. We guarantee all three.</h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
-                <Link to="./development/gatsby">
+                <Link to="./web/gatsby">
             <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem", marginRight: "0px!important"}}} color="primaryweb" size="lg">
                 Gatsby
           </Button>
           </Link>
-          <Link to="./development/react">
+          <Link to="./web/react">
           <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem", marginLeft: "10px!important", marginRight: "10px!important"}}} color="primaryweb" size="lg">
          React JS
         </Button>
