@@ -15,7 +15,7 @@ import exampleStyle from "assets/jss/material-kit-react/views/componentsSections
 
 import landing from "assets/img/landing.jpg";
 import profile from "assets/img/profile.jpg";
-import alternate1 from "assets/img/alternate1.jpg";
+import alternate1 from "assets/img/node.jpg";
 
 
 class Alternate1 extends React.Component {
@@ -23,7 +23,7 @@ class Alternate1 extends React.Component {
     const { classes } = this.props;
     return (
       <div css={{padding: "0px!important"}} className={classes.section}>
-        <div css={{'@media (min-width: 300px) and (max-width: 800px)':
+        <div css={{'@media (min-width: 300px) and (max-width: 2000px)':
           {padding: "0px!important"},backgroundColor: "#fff", padding: "0px!important"}} className={classes.section}>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
