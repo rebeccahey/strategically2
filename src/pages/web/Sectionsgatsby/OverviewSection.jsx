@@ -36,7 +36,6 @@ class OverviewSection extends React.Component {
              <h4>React Native</h4>
              <p>Use React Native to build mobile apps on iOS and Andriod. By using existing React code, you can launch quickly and have less code to maintain in the long term.</p>
              <p>The time it takes to build mobile apps is significantly reduced by the ability to reuse the same codebase across mobile and web applications.</p>
-             </p>
              </div>
           </GridItem>
           </GridContainer>
