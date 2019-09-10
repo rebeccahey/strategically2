@@ -49,7 +49,7 @@ class Components extends React.Component {
               '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Node JS Development Company</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "left",
               paddingLeft: "200px", paddingRight: "300px"}}}>
-              Used by Netflix, Uber, Linkedin and Medium, Node JS is an open-source, cross-platform JavaScript run-time environment. Executing code outside of a browser, its event-based programming style means it is blazing fast and ultra powerful.
+              Used by Netflix, Uber, Linkedin and Medium, Node JS is a cross-platform, open-source JavaScript run-time environment. Executing code outside of a browser, its event-based programming style means it is blazing fast.
               </h3>
               </GridItem>
             </GridContainer>
