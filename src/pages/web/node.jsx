@@ -38,7 +38,7 @@ class Components extends React.Component {
         {...rest}
       />
         </Link>
-        <Parallax image={require("assets/img/Node_JS_development.webp")}>
+        <Parallax image={require("assets/img/node_js_development.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
