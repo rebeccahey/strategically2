@@ -49,8 +49,7 @@ class Components extends React.Component {
               '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "360px", fontSize: "70px"}}}>Gatsby JS Development Company</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "left",
               paddingLeft: "200px", paddingRight: "300px"}}}>
-              Based on React, Gatsby is a free and open source framework for building lightening fast websites and apps.
-              </h3>
+              Based on React, Gatsby is a free and open source framework for building lightning fast websites and apps.</h3>
               </GridItem>
             </GridContainer>
           </div>
