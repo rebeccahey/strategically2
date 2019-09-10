@@ -27,13 +27,14 @@ class Alternate1 extends React.Component {
         <div css={{'@media (min-width: 300px) and (max-width: 2000px)':
           {padding: "0px!important"},backgroundColor: "#fff", padding: "0px!important"}} className={classes.section}>
           <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={6}>
-              <img style={{ width: `100%`,}}
+            <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "2"}}}>
+              <img style={{ width: `80%`,}}
                 src={frontend_development}
+                css={{'@media (min-width: 300px) and (max-width: 800px)': {width: "130vw"}}}
               />
             </GridItem>
-            <GridItem xs={12} sm={12} md={6}>
-              <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px"}, '@media (min-width: 800px)': {paddingLeft: "70px"}}}>
+            <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "1"}, backgroundColor: "#fff"}}>
+            <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "0px"}, '@media (min-width: 800px)': {paddingRight: "70px", paddingTop: "0px"}}}>
                 <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "50px"}}} >Frontend Development</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_________</h6>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Our frontend development is a blend of clean code, impeccable design and extreme usability, creating an experience your customers will love.</h5>

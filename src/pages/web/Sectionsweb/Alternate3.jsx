@@ -27,7 +27,7 @@ class Alternate3 extends React.Component {
         <div className={classes.container}>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
-              <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "0px"}, '@media (min-width: 800px)': {paddingLeft: "70px", paddingTop: "0px"}}}>
+              <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "150px"}, '@media (min-width: 800px)': {paddingLeft: "70px", paddingTop: "0px"}}}>
                 <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "-100px"}}}>Mobile Development</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_________</h6>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>We work with clients in variety of industries to build innovative, beautiful and user-friendly iOS and Android applications.</h5>
@@ -42,7 +42,7 @@ class Alternate3 extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={6}>
               <div style={{ paddingRight: "0px"}}>
-                <img style={{ width: "100%"}}
+                <img style={{ width: "80%"}}
                   src={mobile_development}
                 />
               </div>

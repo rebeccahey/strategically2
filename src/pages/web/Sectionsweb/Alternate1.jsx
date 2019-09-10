@@ -42,7 +42,7 @@ class Alternate1 extends React.Component {
                </div>
             </GridItem>
             <GridItem xs={12} sm={12} md={6}>
-              <img style={{ width: `100%`,}}
+              <img style={{ width: `80%`,}}
                 src={backend_development}
               />
             </GridItem>
