@@ -19,7 +19,7 @@ class WorkSection extends React.Component {
 
     return (
       <div className={classes.section}>
-      <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
+      <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}}}>
         <GridContainer justify="center">
           <GridItem cs={12} sm={12} md={8}>
             <h2 style={{ textAlign: "center", marginTop: "0px"}}>Get in touch</h2>
