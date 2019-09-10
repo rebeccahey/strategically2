@@ -40,10 +40,8 @@ class ContactPage extends React.Component {
            />
            </Link>
           <div className={classes.container}>
-          <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
-            <WorkSection />
+        <WorkSection />
           </div>
-        </div>
         </div>
       </div>
     );
