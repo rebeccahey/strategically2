@@ -32,7 +32,7 @@ class OverviewSection extends React.Component {
          <p>Node JS is written in C language, making it far faster than Ruby, Python and Perl. Node Js can handle thousands of concurrent connections with limited overhead on any individual process delivering incredible performance. </p>
         <h4>It’s all JavaScript</h4>
         <p>As JavaScript is used on the web server and the browser, this reduces the mismatch between two programming environments. Also, duplicate form validation code can be shared between client and server.</p>
-        <h4>Large Community</h4>
+        <h4>Large community</h4>
         <p>JavaScript is, arguably, the most popular coding language. This means there's a large community to access help and support.</p>
           </div>
           </GridItem>
