@@ -30,17 +30,17 @@ function HeaderLinks({ ...props }) {
     <ListItem className={classes.listItem}>
     <CustomDropdown
       noLiPadding
-      buttonText="Content Strategy"
+      buttonText="Development"
       buttonProps={{
         className: classes.navLink,
         color: "transparent"
       }}
       dropdownList={[
-        <Link to="./strategy/content" className={classes.dropdownLink}>
-          Content Strategy
+        <Link to="./web/node" className={classes.dropdownLink}>
+          Node JS
         </Link>,
-        <Link to="./strategy/content-marketing" className={classes.dropdownLink}>
-          Content Marketing Strategy
+        <Link to="./web/react" className={classes.dropdownLink}>
+          React JS
         </Link>
       ]}
     />
@@ -62,16 +62,43 @@ function HeaderLinks({ ...props }) {
         </Link>,
         <Link to="./seo/in-house" className={classes.dropdownLink}>
           In-House SEO Setup
+        </Link>
+      ]}
+    />
+    </ListItem>
+    <ListItem className={classes.listItem}>
+    <CustomDropdown
+      noLiPadding
+      buttonText="Content Strategy"
+      buttonProps={{
+        className: classes.navLink,
+        color: "transparent"
+      }}
+      dropdownList={[
+        <Link to="./strategy/content" className={classes.dropdownLink}>
+          Content Strategy
         </Link>,
-        <Link to="./intelligence" className={classes.dropdownLink}>
-          Competitive Intelligence
-        </Link>,
+        <Link to="./strategy/content-marketing" className={classes.dropdownLink}>
+          Content Marketing Strategy
+        </Link>
+      ]}
+    />
+    </ListItem>
+    <ListItem className={classes.listItem}>
+    <CustomDropdown
+      noLiPadding
+      buttonText="Competitive Analysis"
+      buttonProps={{
+        className: classes.navLink,
+        color: "transparent"
+      }}
+      dropdownList={[
         <Link to="./intelligence/competition" className={classes.dropdownLink}>
           Competitive Landscape
         </Link>,
         <Link to="./intelligence/audience" className={classes.dropdownLink}>
           Audience Targeting
-        </Link>
+        </Link>,
       ]}
     />
   </ListItem>
