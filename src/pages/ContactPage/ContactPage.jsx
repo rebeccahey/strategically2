@@ -32,8 +32,8 @@ class ContactPage extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
-      <div>
-        <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
+      <div css={{'@media (min-width: 300px) and (max-width: 800px)':
+        {padding: "0px!important"},backgroundColor: "#fff", padding: "0px!important"}} className={classes.section}>
       <Helmet>
       <title>Contact Us | Strategically.co</title>
       <meta name="description" content="Strategy and software to help you grow faster" />
@@ -47,7 +47,6 @@ class ContactPage extends React.Component {
            </Link>
           <div className={classes.container}>
         <WorkSection />
-          </div>
           </div>
         </div>
       </div>
