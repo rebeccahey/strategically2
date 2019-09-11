@@ -34,9 +34,9 @@ class ContactPage extends React.Component {
     return (
       <div>
       <Helmet>
-<title>Contact Us | Strategically.co</title>
-<meta name="description" content="Strategy and software to help you grow faster" />
-</Helmet>
+      <title>Contact Us | Strategically.co</title>
+      <meta name="description" content="Strategy and software to help you grow faster" />
+      </Helmet>
         <div className={classNames(classes.main, classes.mainRaised2)}>
           <Link to="./">
           <Header
@@ -45,7 +45,9 @@ class ContactPage extends React.Component {
            />
            </Link>
           <div className={classes.container}>
+          <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
         <WorkSection />
+          </div>
           </div>
         </div>
       </div>
