@@ -21,6 +21,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import contactPageStyle from "assets/jss/material-kit-react/views/ContactPageStyle.jsx";
 
+import { Helmet } from 'react-helmet';
 
 // Sections for this page
 import WorkSection from "./Sections/WorkSection.jsx";
@@ -32,6 +33,10 @@ class ContactPage extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+      <Helmet>
+<title>Contact Us | Strategically.co</title>
+<meta name="description" content="Strategy and software to help you grow faster" />
+</Helmet>
         <div className={classNames(classes.main, classes.mainRaised2)}>
           <Link to="./">
           <Header

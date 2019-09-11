@@ -20,11 +20,17 @@ import SectionExamples from "./Sectionsintelligence4/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
+import { Helmet } from 'react-helmet';
+
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div>
+      <Helmet>
+      <title>Website Content Strategy | Strategically.co</title>
+      <meta name="description" content="Website Content Strategy" />
+      </Helmet>
       <Link to="./">
       <Header
         brand="Strategically"

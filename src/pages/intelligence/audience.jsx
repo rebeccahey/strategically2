@@ -22,11 +22,17 @@ import componentsStyle from "assets/jss/material-kit-react/views/components.jsx"
 
 import Typing from 'react-typing-animation';
 
+import { Helmet } from 'react-helmet';
+
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div>
+      <Helmet>
+<title>Attract & Convert Your Target Audiences | Strategically.co</title>
+<meta name="description" content="Attract & Convert Your Target Audiences" />
+</Helmet>
       <Link to="./">
       <Header
         brand="Strategically"

@@ -23,11 +23,17 @@ import SectionExamples from "./Sectionsweb/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
+import { Helmet } from 'react-helmet';
+
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div>
+      <Helmet>
+<title>Agile Software Development Agency | Strategically.co</title>
+<meta name="description" content="Agile Software Development Agency" />
+</Helmet>
       <Link to="./">
         <Header
           brand="Strategically"

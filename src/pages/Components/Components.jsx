@@ -31,6 +31,8 @@ import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
 import SectionLogin from "./Sections/SectionLogin.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
 
+import { Helmet } from 'react-helmet';
+
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
@@ -38,6 +40,11 @@ class Components extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
+      <Helmet>
+<title>SEO & Software Development Agency London | Strategically.co</title>
+<meta name="description" content="Our marketing and development services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth." />
+</Helmet>
+
       <Link to="./">
         <Header
           brand="Strategically"

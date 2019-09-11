@@ -20,11 +20,17 @@ import SectionExamples from "./Sectionsinhouse/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
+import { Helmet } from 'react-helmet';
+
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div>
+      <Helmet>
+      <title>In-House SEO & Team Training | Strategically.co</title>
+      <meta name="description" content="In-House SEO, Team Training and Hiring" />
+      </Helmet>
       <Link to="./">
       <Header
         brand="Strategically"
