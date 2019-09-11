@@ -41,6 +41,9 @@ function HeaderLinks({ ...props }) {
         </Link>,
         <Link to="./web/react" className={classes.dropdownLink}>
           React JS
+        </Link>,
+        <Link to="./web/gatsby" className={classes.dropdownLink}>
+          Gatsby JS
         </Link>
       ]}
     />

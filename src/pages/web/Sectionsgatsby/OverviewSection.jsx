@@ -26,16 +26,14 @@ class OverviewSection extends React.Component {
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
              <div style={{textAlign: "left"}}>
-             <h4>Gatsby JS Development</h4>
-             <p>React was released in 2013 and designed for building user interfaces. It is a powerful JavaScript library, developed by Facebook and popular with both startups and Fortune 500 companies.</p>
-             <p>It is fast, open-source and search engine friendly with components which can be reused. We love it because we can quickly build better products for our clients.</p>
-             <h4>The React Framework</h4>
-             <p>The React framework means developers can reuse components on multiple pages on a website. This not only saves time, but also improves the cohesion of the user experience by standardising common elements.</p>
-             <p>Valuable time is saved, allowing developers to focus on application architecture and business logic. In addition, one-way bindings make data flows easier to understand, spot issues and debug.</p>
-             <p>Web pages can render faster as the use of a Virtual dom means other JavaScript frameworks, like JQuery, are not required. As faster website load speeds are important SEO signals, this benefits the SEO of your website.</p>
-             <h4>React Native</h4>
-             <p>Use React Native to build mobile apps on iOS and Andriod. By using existing React code, you can launch quickly and have less code to maintain in the long term.</p>
-             <p>The time it takes to build mobile apps is significantly reduced by the ability to reuse the same codebase across mobile and web applications.</p>
+             <h4>What are static sites?</h4>
+             <p>Dynamic sites require client-server interaction, causing slow load speeds, security issues and increased hosting costs.</p>
+             <p>On the other hand, because static sites contain fixed content, coupled with the absence of a server, the issues associated with dynamic sites are mitigated. </p>
+             <p>Static Site Generators are tools which are used to efficiently and effectively develop static sites. Technologies like Gatsby and Jekyll are on the rise along with the use of static sites. </p>
+             <h4>Why do we love Gatsby?</h4>
+             <p>It is a robust, reliable and fast static site generator, rendering static content on the web using React JS.</p>
+             <p>Website content is created as React components and is rendered to the DOM as static CSS, JavaScript and HTML. If you need to extend or modify Gatsby’s existing functionality, you can use plugins. </p>
+             <p>Gatsby is not only robust, but the static content can also be sourced from a variety of sources. Formats include, but are not limited to, markdown, CSV, along with well-known CMS programs WordPress and Drupal. </p>
              </div>
           </GridItem>
           </GridContainer>
