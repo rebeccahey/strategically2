@@ -1,5 +1,5 @@
 import React from "react";
-import ContactPage from "./ContactPage/ContactPage";
+import ContactPage from "./email/ContactPage";
 
 export default () => (
   <ContactPage/>
