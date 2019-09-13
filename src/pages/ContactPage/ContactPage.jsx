@@ -21,6 +21,8 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import contactPageStyle from "assets/jss/material-kit-react/views/ContactPageStyle.jsx";
 
+import componentsStyle from "assets/jss/material-kit-react/views/components.jsx"
+
 import { Helmet } from 'react-helmet';
 
 // Sections for this page
