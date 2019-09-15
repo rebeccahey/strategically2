@@ -41,10 +41,9 @@ class Components extends React.Component {
     return (
       <div>
       <Helmet>
-<title>SEO & Software Development Agency London | Strategically.co</title>
-<meta name="description" content="Our marketing and development services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth." />
-</Helmet>
-
+      <title>SEO & Software Development Agency London | Strategically.co</title>
+      <meta name="description" content="Our marketing and development services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth." />
+      </Helmet>
       <Link to="./">
         <Header
           brand="Strategically"
@@ -60,7 +59,7 @@ class Components extends React.Component {
         </Link>
         <Parallax image={require("assets/img/bg4.jpg")}>
           <div className={classes.container}>
-            <GridContainer>
+          <GridContainer>
               <GridItem>
               <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
               fontSize: "40px"},
@@ -77,7 +76,9 @@ class Components extends React.Component {
           </div>
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
+        <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
         <Alternate1 />
+        </div>
         <Alternate2 />
         <Alternate3 />
         <Alternate4 />
