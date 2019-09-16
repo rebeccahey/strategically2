@@ -18,6 +18,7 @@ import GridItem from "components/Grid/GridItem.jsx"
 import contactPageStyle from "assets/jss/material-kit-react/views/ContactPageStyle.jsx"
 
 import { Helmet } from "react-helmet"
+import componentsStyle from "assets/jss/material-kit-react/views/components.jsx"
 
 // Sections for this page
 import WorkSection from "./Sections/WorkSection.jsx"

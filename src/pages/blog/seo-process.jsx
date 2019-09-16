@@ -15,8 +15,8 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import OverviewSection from "./Sectionsseo/OverviewSection.jsx";
-import SectionExamples from "./Sectionsseo/SectionExamples.jsx";
+import OverviewSection from "./Sectionsstep7/OverviewSection.jsx";
+import SectionExamples from "./Sectionsstep7/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
@@ -30,49 +30,24 @@ class Components extends React.Component {
     return (
       <div>
       <Helmet>
-      <title>Next Level Search Engine Optimisation| Strategically.co</title>
-      <meta name="description" content="A lot of people have a website or a developer, but no real plan. You don't need more features or a shiny new front end. What you need is a plan. Our clients have one — do you?" />
-      </Helmet>
+<title>7 Steps to a Killer SEO Strategy | Strategically.co</title>
+<meta name="description" content="An effective SEO strategy organises your website’s content and architecture by topic to support your business goals, meet your customer needs and inform Google of a users searching intent." />
+</Helmet>
       <Link to="./">
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
         fixed
-        color="opaque"
-        changeColorOnScroll={{
-          height: 100,
-          color: "primary"
-        }}
+        color="primary"
         {...rest}
       />
         </Link>
-        <Parallax image={require("assets/img/ServiceImage.jpg")}>
-          <div className={classes.container}>
-            <GridContainer>
-              <GridItem>
-              <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px", paddingTop: "500px",
-              fontSize: "40px"},
-              '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px",
-              fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "260px", fontSize: "70px", paddingTop: "200px"}}}>Audience-focused organic search engine marketing</h1>
-              <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px"}, '@media (min-width: 800px)': {textAlign: "left",
-              paddingLeft: "200px", paddingRight: "200px"}}}>
-              _______________</h3>
-              <h3 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px", paddingBottom: "450px"},
-              '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "left", paddingLeft: "25px", paddingRight: "40px"},
-              '@media (min-width: 800px)': {textAlign: "left", paddingLeft: "200px", paddingRight: "200px", paddingBottom: "150px"}}}>
-                Our SEO is purely white-hat, analytics driven and aimed at attracting and converting quality leads.
-              </h3>
-              </GridItem>
-            </GridContainer>
-          </div>
-        </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
         <OverviewSection />
         <SectionExamples />
     </div>
         <div className={classes.conatinerCta}>
-        <GridContainer style={{ paddingTop: "80px", paddingBottom: "80px", backgroundColor: "#2A2C2D"}}>>
+        <GridContainer style={{ paddingTop: "80px", paddingBottom: "80px", backgroundColor: "#222222"}}>>
           <GridItem>
               <h1 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "10px", paddingRight: "10px",
               fontSize: "60px"}, '@media (min-width: 800px)': {textAlign: "center",
