@@ -25,3 +25,13 @@ module.exports = {
     'gatsby-plugin-offline',
   ],
 }
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-127625937-1",
+      },
+    },
+  ],
+}

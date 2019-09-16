@@ -26,11 +26,11 @@ class OverviewSection extends React.Component {
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
              <div style={{textAlign: "left"}}>
-             <h4>What are static sites?</h4>
+             <h4>What are static site generators such as Gatsby?</h4>
              <p>Dynamic sites require client-server interaction, causing slow load speeds, security issues and increased hosting costs.</p>
              <p>On the other hand, because static sites contain fixed content, coupled with the absence of a server, the issues associated with dynamic sites are mitigated. </p>
              <p>Static Site Generators are tools which are used to efficiently and effectively develop static sites. Technologies like Gatsby and Jekyll are on the rise along with the use of static sites. </p>
-             <h4>Why do we love Gatsby?</h4>
+             <h4>Why do we love developing websites using Gatsby?</h4>
              <p>It is a robust, reliable and fast static site generator, rendering static content on the web using React JS.</p>
              <p>Website content is created as React components and is rendered to the DOM as static CSS, JavaScript and HTML. If you need to extend or modify Gatsby’s existing functionality, you can use plugins. </p>
              <p>Gatsby is not only robust, but the static content can also be sourced from a variety of sources. Formats include, but are not limited to, markdown, CSV, along with well-known CMS programs WordPress and Drupal. </p>
