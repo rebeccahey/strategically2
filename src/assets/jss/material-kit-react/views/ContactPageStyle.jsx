@@ -2,9 +2,9 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 
 const contactPageStyle = {
   container: {
+    ...container,
     zIndex: "12",
-    color: "#FFFFFF",
-    ...container
+    color: "#FFFFFF"
   },
   title: {
     ...title,

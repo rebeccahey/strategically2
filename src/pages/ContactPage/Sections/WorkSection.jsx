@@ -67,7 +67,7 @@ class WorkSection extends React.Component {
                     rows: 5
                   }}
                 />
-                <GridContainer justify="left">
+                <GridContainer justify="flex-start">
                   <GridItem
                     xs={12}
                     sm={12}
