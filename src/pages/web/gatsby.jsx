@@ -31,7 +31,7 @@ class Components extends React.Component {
 <title>Gatsby JS Development Agency | Strategically.co</title>
 <meta name="description" content="Gatsby JS Development Agency" />
 </Helmet>
-      <Link to="./">
+      {/* <Link to="./"> */}
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -43,7 +43,7 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        </Link>
+        {/* </Link> */}
         <Parallax image={require("assets/img/Gatsby_JS_development.jpg")}>
           <div className={classes.container}>
             <GridContainer>
