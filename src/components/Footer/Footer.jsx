@@ -38,13 +38,12 @@ function Footer({ ...props }) {
               </Link>
             </li>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
-              <a
-                href="https://medium.com/strategically/step-1-understanding-business-goals-audiences-and-value-propositions-55feb4a1128c"
-                css={{display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
-                target="_blank"
-              >
-                Strategy Process
-              </a>
+            <Link to="./blog/seo-strategy"
+              css={{display: 'block', position: 'relative', fontWeight: '300', textDecoration: 'none', '@media (min-width: 300px) and (max-width: 800px)': {fontSize: '14px'}, '@media (min-width: 800px)': {fontSize:'18px'}}}
+              target="_blank"
+            >
+              Our Strategy Process
+            </Link>
             </li>
             <li css={{display: 'inline-block', width: 'auto', '@media (min-width: 300px) and (max-width: 800px)': {paddingLeft:'10px'}, '@media (min-width: 800px)': {paddingLeft:'20px'}}}>
               <Link to="./contact"
