@@ -3,6 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
+import { Link } from "gatsby";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import AppBar from "@material-ui/core/AppBar";
@@ -73,7 +74,7 @@ class Header extends React.Component {
       [classes.absolute]: absolute,
       [classes.fixed]: fixed,
     });
-    const brandComponent = <Button className={classes.title}>{brand}</Button>;
+    const brandComponent = <Link to="/"><Button className={classes.title}>{brand}</Button></Link>;
     return (
       <AppBar css={{'@media (min-width: 300px) and (max-width: 800px)': {left: "0"}, '@media (min-width: 800px)': {left: "auto", paddingRight: '6vw!important', paddingLeft: '6vw!important'}}} className={appBarClasses}>
         <Toolbar className={classes.container}>

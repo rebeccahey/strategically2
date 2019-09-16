@@ -32,7 +32,7 @@ class Components extends React.Component {
 <meta name="description" content="React JS Development Agency" />
 </Helmet>
 
-      <Link to="./">
+      {/* <Link to="./"> */}
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -44,7 +44,7 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        </Link>
+        {/* </Link> */}
         <Parallax image={require("assets/img/react_JS_development.jpg")}>
           <div className={classes.container}>
             <GridContainer>

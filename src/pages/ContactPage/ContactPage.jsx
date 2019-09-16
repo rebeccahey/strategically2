@@ -1,58 +1,51 @@
-import React from "react";
+import React from "react"
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "classnames"
 // react components for routing our app without refresh
-import { Link } from "gatsby";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles"
 
 // @material-ui/icons
 
 // React icons
-import { FaPlay } from 'react-icons/fa';
+import { FaPlay } from "react-icons/fa"
 
 // core components
-import Header from "components/Header/Header.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import Parallax from "components/Parallax/Parallax.jsx";
-import contactPageStyle from "assets/jss/material-kit-react/views/ContactPageStyle.jsx";
+import Header from "components/Header/Header.jsx"
+import Footer from "components/Footer/Footer.jsx"
+import GridContainer from "components/Grid/GridContainer.jsx"
+import GridItem from "components/Grid/GridItem.jsx"
+import contactPageStyle from "assets/jss/material-kit-react/views/ContactPageStyle.jsx"
 
+import { Helmet } from "react-helmet"
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx"
 
-import { Helmet } from 'react-helmet';
-
 // Sections for this page
-import WorkSection from "./Sections/WorkSection.jsx";
-
-const dashboardRoutes = [];
+import WorkSection from "./Sections/WorkSection.jsx"
 
 class ContactPage extends React.Component {
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
     return (
       <div>
-      <Helmet>
-      <title>Contact Us | Strategically.co</title>
-      <meta name="description" content="Strategy and software to help you grow faster" />
-      </Helmet>
-        <div className={classNames(classes.main, classes.mainRaised2)}>
-          <Link to="./">
-          <Header
-          color="white"
-          brand="Strategically"
-           />
-           </Link>
-          <div className={classes.container}>
-        <WorkSection />
-          </div>
+        <Helmet>
+          <title>Contact Us | Strategically.co</title>
+          <meta
+            name="description"
+            content="Strategy and software to help you grow faster"
+          />
+        </Helmet>
+        {/* <div className={classNames(classes.main, classes.mainRaised2)}> */}
+        {/* <Link to="./"> */}
+        <Header color="white" brand="Strategically" />
+        {/* </Link> */}
+        <div className={classes.container}>
+          <WorkSection />
         </div>
+        {/* </div> */}
       </div>
-    );
+    )
   }
 }
 
-export default withStyles(contactPageStyle)(ContactPage);
+export default withStyles(contactPageStyle)(ContactPage)

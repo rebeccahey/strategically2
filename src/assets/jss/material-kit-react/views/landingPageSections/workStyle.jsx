@@ -1,6 +1,7 @@
-import { title } from "assets/jss/material-kit-react.jsx";
+import { container, title } from "assets/jss/material-kit-react.jsx";
 
 const workStyle = {
+  container,
   section: {
     padding: "70px 0"
   },

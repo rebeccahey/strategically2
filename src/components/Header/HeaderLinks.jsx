@@ -106,7 +106,7 @@ function HeaderLinks({ ...props }) {
     />
   </ListItem>
       <ListItem className={classes.listItem}>
-        <Link to="./contact">
+        <Link to="/contact">
           <Button
             color="transparent"
             target=""

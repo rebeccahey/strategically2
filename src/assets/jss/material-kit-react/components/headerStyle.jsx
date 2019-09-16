@@ -56,10 +56,10 @@ const headerStyle = {
     fontSize: "30px",
     borderRadius: "3px",
     textTransform: "none",
-    color: "inherit",
+    color: "white",
     padding: "8px 16px",
     "&:hover,&:focus": {
-      color: "inherit",
+      color: "white",
       background: "transparent"
     }
   },
