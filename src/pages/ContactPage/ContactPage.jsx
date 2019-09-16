@@ -37,7 +37,7 @@ class ContactPage extends React.Component {
         </Helmet>
         {/* <div className={classNames(classes.main, classes.mainRaised2)}> */}
         {/* <Link to="./"> */}
-        <Header color="white" brand="Strategically" />
+        <Header color="primary" brand="Strategically" />
         {/* </Link> */}
         <div className={classes.container}>
           <WorkSection />

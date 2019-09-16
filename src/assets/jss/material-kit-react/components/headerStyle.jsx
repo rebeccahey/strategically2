@@ -114,11 +114,16 @@ const headerStyle = {
     paddingTop: "25px",
     color: "#ffffff"
   },
+  contact: {
+    backgroundColor: "transparent",
+    color: "primaryColor",
+    boxShadow: "none",
+    paddingTop: "25px"
+  },
   dark: {
-    color: "#FFFFFF",
-    backgroundColor: "#212121 !important",
-    boxShadow:
-      "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 33, 33, 0.46)"
+    color: "primary",
+    backgroundColor: "white",
+    boxShadow: "none"
   },
   white: {
     border: "0",
