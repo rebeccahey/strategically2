@@ -36,14 +36,17 @@ function HeaderLinks({ ...props }) {
         color: "transparent"
       }}
       dropdownList={[
+        <Link to="./web" className={classes.dropdownLink}>
+          Software Development
+        </Link>,
         <Link to="./web/node" className={classes.dropdownLink}>
-          Node JS
+          Node JS Development
         </Link>,
         <Link to="./web/react" className={classes.dropdownLink}>
-          React JS
+          React JS Development
         </Link>,
         <Link to="./web/gatsby" className={classes.dropdownLink}>
-          Gatsby JS
+          Gatsby JS Development
         </Link>
       ]}
     />
@@ -58,6 +61,9 @@ function HeaderLinks({ ...props }) {
       }}
       dropdownList={[
         <Link to="./seo/audit" className={classes.dropdownLink}>
+          Search Engine Optimisation
+        </Link>,
+        <Link to="./seo" className={classes.dropdownLink}>
           SEO Site Audit
         </Link>,
         <Link to="./seo/strategy" className={classes.dropdownLink}>
@@ -78,6 +84,9 @@ function HeaderLinks({ ...props }) {
         color: "transparent"
       }}
       dropdownList={[
+        <Link to="./strategy" className={classes.dropdownLink}>
+          Content Services
+        </Link>,
         <Link to="./strategy/content" className={classes.dropdownLink}>
           Content Strategy
         </Link>,
@@ -96,6 +105,9 @@ function HeaderLinks({ ...props }) {
         color: "transparent"
       }}
       dropdownList={[
+        <Link to="./intelligence" className={classes.dropdownLink}>
+          Competitive Analysis
+        </Link>,
         <Link to="./intelligence/competition" className={classes.dropdownLink}>
           Competitive Landscape
         </Link>,

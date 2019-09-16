@@ -31,7 +31,6 @@ class Components extends React.Component {
       <title>SEO Content Strategy | Strategically.co</title>
       <meta name="description" content="Is your site prepared for the levels of optimisation and engagement that search engines (and ever-growing competition) demand today?" />
       </Helmet>
-      <Link to="./">
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -43,7 +42,6 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        </Link>
         <Parallax image={require("assets/img/ServiceImage.jpg")}>
           <div className={classes.container}>
             <GridContainer>

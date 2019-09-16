@@ -31,7 +31,6 @@ class Components extends React.Component {
       <title>SEO Site Evaluation | Strategically.co</title>
       <meta name="description" content="An SEO site evaluation is an assessment of your current site's search engine optimization and it's ability to attract target audiences and convert them through search." />
       </Helmet>
-      <Link to="./">
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -43,7 +42,6 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        </Link>
         <Parallax image={require("assets/img/ServiceImage.jpg")}>
           <div className={classes.container}>
             <GridContainer>

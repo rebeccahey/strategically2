@@ -27,7 +27,6 @@ class Components extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
-      <Link to="./">
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -39,7 +38,6 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        </Link>
         <Parallax image={require("assets/img/ServiceImage.jpg")}>
           <div className={classes.container}>
             <GridContainer>

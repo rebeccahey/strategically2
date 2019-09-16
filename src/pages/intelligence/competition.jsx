@@ -33,7 +33,6 @@ class Components extends React.Component {
 <title>Competitive Landscape Analysis | Strategically.co</title>
 <meta name="description" content="To get ahead on the web today you need to be better than them." />
 </Helmet>
-      <Link to="./">
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -45,7 +44,6 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        </Link>
         <Parallax image={require("assets/img/ServiceImage.jpg")}>
           <div className={classes.container}>
             <GridContainer>

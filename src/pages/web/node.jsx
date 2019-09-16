@@ -31,7 +31,6 @@ class Components extends React.Component {
 <title>Node JS Development Agency | Strategically.co</title>
 <meta name="description" content="We love Node.js because it is a light, scalable and cross-platform method to execute code." />
 </Helmet>
-      {/* <Link to="./"> */}
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -43,7 +42,6 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        {/* </Link> */}
         <Parallax image={require("assets/img/node_js_development.jpg")}>
           <div className={classes.container}>
             <GridContainer>

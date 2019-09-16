@@ -34,7 +34,6 @@ class Components extends React.Component {
 <title>Agile Software Development Agency | Strategically.co</title>
 <meta name="description" content="We build beautiful and functional software for B2B and SaaS companies by providing outstanding project management and software development expertise." />
 </Helmet>
-      <Link to="./">
         <Header
           brand="Strategically"
           rightLinks={<HeaderLinks />}
@@ -46,7 +45,6 @@ class Components extends React.Component {
           }}
           {...rest}
         />
-        </Link>
         <Parallax image={require("assets/img/webdevelopment.jpg")}>
           <div className={classes.container}>
             <GridContainer>

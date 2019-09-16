@@ -31,7 +31,6 @@ class Components extends React.Component {
 <title>Gatsby JS Development Agency | Strategically.co</title>
 <meta name="description" content="Based on React, Gatsby is a free and open source framework for building lightning fast websites and apps." />
 </Helmet>
-      {/* <Link to="./"> */}
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -43,7 +42,6 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        {/* </Link> */}
         <Parallax image={require("assets/img/Gatsby_JS_development.jpg")}>
           <div className={classes.container}>
             <GridContainer>

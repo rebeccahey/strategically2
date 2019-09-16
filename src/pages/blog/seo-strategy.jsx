@@ -33,7 +33,6 @@ class Components extends React.Component {
 <title>7 Steps to a Killer SEO Strategy | Strategically.co</title>
 <meta name="description" content="An effective SEO strategy organises your website’s content and architecture by topic to support your business goals, meet your customer needs and inform Google of a users searching intent." />
 </Helmet>
-      <Link to="./">
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -41,7 +40,6 @@ class Components extends React.Component {
         color="primary"
         {...rest}
       />
-        </Link>
         <div className={classNames(classes.main, classes.mainRaised)}>
         <OverviewSection />
         <SectionExamples />

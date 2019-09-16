@@ -31,8 +31,6 @@ class Components extends React.Component {
 <title>React JS Development Agency | Strategically.co</title>
 <meta name="description" content="Our developers use React JS to build complex interfaces. Reusable components allow for quick iterations and efficient development." />
 </Helmet>
-
-      {/* <Link to="./"> */}
       <Header
         brand="Strategically"
         rightLinks={<HeaderLinks />}
@@ -44,7 +42,6 @@ class Components extends React.Component {
         }}
         {...rest}
       />
-        {/* </Link> */}
         <Parallax image={require("assets/img/react_JS_development.jpg")}>
           <div className={classes.container}>
             <GridContainer>
