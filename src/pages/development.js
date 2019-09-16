@@ -1,5 +1,5 @@
 import React from "react";
-import WebPage from "./web/web";
+import WebPage from "./development/web";
 
 export default () => (
   <WebPage/>

@@ -33,7 +33,7 @@ class Alternate1 extends React.Component {
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_________</h6>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>Bullet-proof your business logic with reliable backend development that you can count on, always. </h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
-              <Link to="./web/node">
+              <Link to="./development/node">
               <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem", marginRight: "0px!important"}}} color="primaryweb" size="lg">
             Node JS
             </Button>

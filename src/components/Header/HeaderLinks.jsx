@@ -36,16 +36,16 @@ function HeaderLinks({ ...props }) {
         color: "transparent"
       }}
       dropdownList={[
-        <Link to="./web" className={classes.dropdownLink}>
+        <Link to="./development" className={classes.dropdownLink}>
           Software Development
         </Link>,
-        <Link to="./web/node" className={classes.dropdownLink}>
+        <Link to="./development/node" className={classes.dropdownLink}>
           Node JS Development
         </Link>,
-        <Link to="./web/react" className={classes.dropdownLink}>
+        <Link to="./development/react" className={classes.dropdownLink}>
           React JS Development
         </Link>,
-        <Link to="./web/gatsby" className={classes.dropdownLink}>
+        <Link to="./development/gatsby" className={classes.dropdownLink}>
           Gatsby JS Development
         </Link>
       ]}
