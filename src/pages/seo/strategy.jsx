@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
       <title>SEO Content Strategy | Strategically.co</title>
-      <meta name="description" content="SEO Content Strategy: Attract and Convert Audiences" />
+      <meta name="description" content="Is your site prepared for the levels of optimisation and engagement that search engines (and ever-growing competition) demand today?" />
       </Helmet>
       <Link to="./">
       <Header

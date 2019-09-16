@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
 <title>Gatsby JS Development Agency | Strategically.co</title>
-<meta name="description" content="Gatsby JS Development Agency" />
+<meta name="description" content="Based on React, Gatsby is a free and open source framework for building lightning fast websites and apps." />
 </Helmet>
       {/* <Link to="./"> */}
       <Header

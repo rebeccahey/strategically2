@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
       <title>SEO Competitive Intelligence | Strategically.co</title>
-      <meta name="description" content="Competitive Intelligence & Positioning" />
+      <meta name="description" content="Do you know your target audiences? Do you know what they need, what they want? Do you know what they’re into, where they're interacting online and who they really are?" />
       </Helmet>
       <Link to="./">
       <Header

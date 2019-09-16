@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
 <title>React JS Development Agency | Strategically.co</title>
-<meta name="description" content="React JS Development Agency" />
+<meta name="description" content="Our developers use React JS to build complex interfaces. Reusable components allow for quick iterations and efficient development." />
 </Helmet>
 
       {/* <Link to="./"> */}

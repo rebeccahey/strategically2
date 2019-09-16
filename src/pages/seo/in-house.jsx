@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
       <title>In-House SEO & Team Training | Strategically.co</title>
-      <meta name="description" content="In-House SEO, Team Training and Hiring" />
+      <meta name="description" content="The larger the company, the more potential there is for fall-off, bottlenecks and lack of proper education that prevent successful results." />
       </Helmet>
       <Link to="./">
       <Header

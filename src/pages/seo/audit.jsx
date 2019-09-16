@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
       <title>SEO Site Evaluation | Strategically.co</title>
-      <meta name="description" content="SEO Site Evaluation That Goes Beyond Typical SEO" />
+      <meta name="description" content="An SEO site evaluation is an assessment of your current site's search engine optimization and it's ability to attract target audiences and convert them through search." />
       </Helmet>
       <Link to="./">
       <Header

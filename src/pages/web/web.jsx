@@ -32,7 +32,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
 <title>Agile Software Development Agency | Strategically.co</title>
-<meta name="description" content="Agile Software Development Agency" />
+<meta name="description" content="We build beautiful and functional software for B2B and SaaS companies by providing outstanding project management and software development expertise." />
 </Helmet>
       <Link to="./">
         <Header

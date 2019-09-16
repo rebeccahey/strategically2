@@ -31,7 +31,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
 <title>Competitive Landscape Analysis | Strategically.co</title>
-<meta name="description" content="Competitive Landscape Analysis" />
+<meta name="description" content="To get ahead on the web today you need to be better than them." />
 </Helmet>
       <Link to="./">
       <Header

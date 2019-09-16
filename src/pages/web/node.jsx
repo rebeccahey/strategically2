@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
 <title>Node JS Development Agency | Strategically.co</title>
-<meta name="description" content="Node JS Development Agency" />
+<meta name="description" content="We love Node.js because it is a light, scalable and cross-platform method to execute code." />
 </Helmet>
       {/* <Link to="./"> */}
       <Header

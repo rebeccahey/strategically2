@@ -31,7 +31,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
       <title>Next Level Search Engine Optimisation| Strategically.co</title>
-      <meta name="description" content="A lot of people have a website or a developer, but no real plan. You don't need more features or a shiny new front end. What you need is a plan. Our clients have one — do you?" />
+      <meta name="description" content="A lot of people have a website or a developer, but no real plan. You don't need more features or a shiny new frontend. What you need is a plan. Our clients have one — do you?" />
       </Helmet>
       <Link to="./">
       <Header

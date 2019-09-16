@@ -31,7 +31,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
       <title>Content Strategy | Strategically.co</title>
-      <meta name="description" content="Content Strategy, Marketing and Creation" />
+      <meta name="description" content="Content without a strategy can be a monumental waste of valuable time and resources. We will build you the strategy you need." />
       </Helmet>
       <Link to="./">
       <Header

@@ -32,7 +32,7 @@ class ContactPage extends React.Component {
           <title>Contact Us | Strategically.co</title>
           <meta
             name="description"
-            content="Strategy and software to help you grow faster"
+            content="Contact us today! Speak with one of our search engine optimisation experts."
           />
         </Helmet>
         {/* <div className={classNames(classes.main, classes.mainRaised2)}> */}

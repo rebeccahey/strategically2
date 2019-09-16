@@ -29,7 +29,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
       <title>Content Marketing Strategy | Strategically.co</title>
-      <meta name="description" content="The Strategically Process for Content Strategy & Marketing" />
+      <meta name="description" content="The Strategically process for content strategy and marketing" />
       </Helmet>
 
       <Link to="./">

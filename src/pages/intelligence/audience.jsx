@@ -31,7 +31,7 @@ class Components extends React.Component {
       <div>
       <Helmet>
 <title>Attract & Convert Your Target Audiences | Strategically.co</title>
-<meta name="description" content="Attract & Convert Your Target Audiences" />
+<meta name="description" content="Are you driving leads that aren't qualified or do you just need to get more? How well do you really know your audiences and what they're looking for?" />
 </Helmet>
       <Link to="./">
       <Header
