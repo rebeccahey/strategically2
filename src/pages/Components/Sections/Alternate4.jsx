@@ -41,7 +41,7 @@ class Alternate4 extends React.Component {
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
                   <Link to="./strategy">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    Learn more
+                    Content Strategy
                   </Button>
                   </Link>
                 </div>
