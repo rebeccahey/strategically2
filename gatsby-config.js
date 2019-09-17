@@ -5,6 +5,13 @@ module.exports = {
 
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-127625937-1",
+        head: false,
+      },
+    },
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
@@ -24,11 +31,4 @@ module.exports = {
     },
     'gatsby-plugin-offline',
   ],
-},
-{
-   resolve: `gatsby-plugin-google-analytics`,
-   options: {
-     trackingId: "UA-127625937-1",
-     head: "true",
-   },
- },
+}
