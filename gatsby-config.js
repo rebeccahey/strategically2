@@ -12,6 +12,15 @@ module.exports = {
         head: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `pt-serif`,
+            ],
+        display: 'swap'
+      },
+    },
     'gatsby-plugin-resolve-src',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
