@@ -11,8 +11,6 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
-import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
 import blog1 from "assets/img/blog1.jpg";
 import blog2 from "assets/img/blog2.jpg";
 
@@ -24,7 +22,7 @@ class SectionExamples extends React.Component {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <a href="https://medium.com/strategically/step-2-keyword-research-based-on-the-target-audience-7037db2c1280">
+              <Link to="./blog/seo-strategy">
                 <img
                   src={blog1}
                   alt="SEO keyword research"
@@ -33,22 +31,22 @@ class SectionExamples extends React.Component {
                   }
                   css={{'@media (min-width: 300px) and (max-width: 800px)':{width: '100%!important'},'@media (min-width: 800px)':{width: 'auto!important'}}}
                 />
-                </a>
+                </Link>
                 <div style={{ textAlign: "center"}}>
                 <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px",paddingRight: "20px",paddingTop: "15px",
                 textAlign: "center"}, '@media (min-width: 800px)': {paddingLeft: "70px",
-                paddingRight: "70px",paddingTop: "15px",textAlign: "center"}}}>The complete guide to keyword research</h4>
-                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "30px",paddingRight: "30px",textAlign: "center"}, '@media (min-width: 800px)': {paddingLeft: "100px",paddingRight: "100px",textAlign: "center"}}}>The essential process to reverse engineer website architecture and content strategy based on available search demand.</h5>
-                <a href="https://medium.com/strategically/step-2-keyword-research-based-on-the-target-audience-7037db2c1280">
+                paddingRight: "70px",paddingTop: "15px",textAlign: "center"}}}>The 7 steps to a killer SEO strategy</h4>
+                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "30px",paddingRight: "30px",textAlign: "center"}, '@media (min-width: 800px)': {paddingLeft: "100px",paddingRight: "100px",textAlign: "center"}}}>An SEO strategy is a data-backed blueprint to generate pre-qualified leads to your website using organic traffic.</h5>
+                <Link to="./blog/seo-strategy">
                 <Button color="primary" size="lg">
                     Read More
                 </Button>
-                </a>
+                </Link>
                 </div>
             </GridItem>
             <GridItem xs={12} sm={12} md={6}>
-              <a href="https://medium.com/strategically/step-5-analysing-the-competitive-landscape-11b7db46e9e2">
-                <img
+              <Link to="./blog/seo-strategy/#analysing-the-competitive-landscape">
+              <img
                   src={blog2}
                   alt="Competitive analysis for SEO"
                   className={
@@ -56,17 +54,17 @@ class SectionExamples extends React.Component {
                   }
                   css={{'@media (min-width: 300px) and (max-width: 800px)':{width: '100%!important'},'@media (min-width: 800px)':{width: 'auto!important'}}}
                 />
-                </a>
+                </Link>
                 <div style={{ textAlign: "center"}}>
                 <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px",paddingRight: "20px",paddingTop: "15px",
                 textAlign: "center"}, '@media (min-width: 800px)': {paddingLeft: "70px",
-                paddingRight: "70px",paddingTop: "15px",textAlign: "center"}}}>Analysing the digital competitive landscape</h4>
+                paddingRight: "70px",paddingTop: "15px",textAlign: "center"}}}>Analysing the competitive landscape</h4>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "30px",paddingRight: "30px",textAlign: "center"}, '@media (min-width: 800px)': {paddingLeft: "100px",paddingRight: "100px",textAlign: "center"}}}>Learn where your business stands in a competitive landscape, giving you the power to market your strength.</h5>
-                <a href="https://medium.com/strategically/step-5-analysing-the-competitive-landscape-11b7db46e9e2">
+                <Link to="./blog/seo-strategy/#analysing-the-competitive-landscape">
                 <Button color="primary" size="lg">
                     Read More
                 </Button>
-                </a>
+                </Link>
                 </div>
             </GridItem>
           </GridContainer>

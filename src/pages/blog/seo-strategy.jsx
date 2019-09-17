@@ -16,11 +16,8 @@ import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import OverviewSection from "./Sectionsstep7/OverviewSection.jsx";
-import SectionExamples from "./Sectionsstep7/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-
-import Typing from 'react-typing-animation';
 
 import { Helmet } from 'react-helmet';
 
@@ -42,7 +39,6 @@ class Components extends React.Component {
       />
         <div className={classNames(classes.main, classes.mainRaised)}>
         <OverviewSection />
-        <SectionExamples />
     </div>
         <div className={classes.conatinerCta}>
         <GridContainer style={{ paddingTop: "80px", paddingBottom: "80px", backgroundColor: "#222222"}}>>

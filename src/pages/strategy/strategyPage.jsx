@@ -20,8 +20,6 @@ import SectionExamples from "./Sectionsstrategy/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
-import Typing from 'react-typing-animation';
-
 import { Helmet } from 'react-helmet';
 
 class Components extends React.Component {

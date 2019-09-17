@@ -15,21 +15,12 @@ import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionBasics from "./Sections/SectionBasics.jsx";
-import SectionNavbars from "./Sections/SectionNavbars.jsx";
-import SectionTabs from "./Sections/SectionTabs.jsx";
 import Alternate1 from "./Sections/Alternate1.jsx";
 import Alternate2 from "./Sections/Alternate2.jsx";
 import Alternate3 from "./Sections/Alternate3.jsx";
 import Alternate4 from "./Sections/Alternate4.jsx";
-import SectionNotifications from "./Sections/SectionNotifications.jsx";
-import SectionTypography from "./Sections/SectionTypography.jsx";
-import SectionJavascript from "./Sections/SectionJavascript.jsx";
-import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import SectionExamples from "./Sections/SectionExamples.jsx";
-import SectionCompletedExamples from "./Sections/SectionCompletedExamples.jsx";
-import SectionLogin from "./Sections/SectionLogin.jsx";
-import SectionDownload from "./Sections/SectionDownload.jsx";
+
 
 import { Helmet } from 'react-helmet';
 
