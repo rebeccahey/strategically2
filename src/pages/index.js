@@ -8,9 +8,6 @@ import 'typeface-roboto-slab';
 // pages for this product
 import Components from "./Components/Components.jsx";
 import ContactPage from "./ContactPage/ContactPage.jsx";
-import LandingPage from "./LandingPage/LandingPage.jsx";
-import ProfilePage from "./ProfilePage/ProfilePage.jsx";
-import LoginPage from "./LoginPage/LoginPage.jsx";
 
 let hist = createMemoryHistory();
 
