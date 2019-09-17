@@ -60,10 +60,10 @@ function HeaderLinks({ ...props }) {
         color: "transparent"
       }}
       dropdownList={[
-        <Link to="./seo/audit" className={classes.dropdownLink}>
+        <Link to="./seo" className={classes.dropdownLink}>
           Search Engine Optimisation
         </Link>,
-        <Link to="./seo" className={classes.dropdownLink}>
+        <Link to="./seo/audit" className={classes.dropdownLink}>
           SEO Site Audit
         </Link>,
         <Link to="./seo/strategy" className={classes.dropdownLink}>
