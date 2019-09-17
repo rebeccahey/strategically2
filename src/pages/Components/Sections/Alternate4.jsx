@@ -1,6 +1,5 @@
 import React from "react";
 // react components for routing our app without refresh
-import classNames from "classnames";
 
 import { Link } from "gatsby";
 // @material-ui/core components
@@ -13,7 +12,6 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
-import landing from "assets/img/landing.jpg";
 import alternate4 from "assets/img/alternate4.jpg";
 
 class Alternate4 extends React.Component {
@@ -30,6 +28,7 @@ class Alternate4 extends React.Component {
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "2"}}}>
               <img style={{ width: "100%"}}
                 src={alternate4}
+                alt="content strategy agency"
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "1"}}}>

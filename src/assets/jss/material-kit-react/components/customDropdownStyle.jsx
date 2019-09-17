@@ -1,5 +1,4 @@
 import {
-  defaultFont,
   primaryColor,
   primaryBoxShadow,
   infoColor,
