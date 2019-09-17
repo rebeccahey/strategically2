@@ -48,9 +48,8 @@ class Components extends React.Component {
           {...rest}
         />
         </Link>
-        <Parallax image={require("assets/img/bg4.jpg")}>
           <div className={classes.container}>
-          <GridContainer>
+          <GridContainer style={{ paddingTop: "170px", paddingBottom: "200px", backgroundColor: "#e83e33"}}>>
               <GridItem>
               <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
               fontSize: "40px"},
@@ -65,7 +64,6 @@ class Components extends React.Component {
               </GridItem>
             </GridContainer>
           </div>
-        </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
         <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
         <Alternate1 />
