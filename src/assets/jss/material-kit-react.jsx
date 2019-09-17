@@ -36,12 +36,6 @@ const conatinerBlog = {
   marginRight: "auto",
   marginLeft: "auto",
 };
-const conatinerCta = {
-  paddingRight: "0px",
-  paddingLeft: "0px",
-  marginRight: "auto",
-  marginLeft: "auto",
-};
 const container = {
   ...conatinerFluid,
   "@media (min-width: 576px)": {
