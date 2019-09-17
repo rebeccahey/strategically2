@@ -47,8 +47,8 @@ class Components extends React.Component {
           {...rest}
         />
         </Link>
-          <div className={classes.container}>
-          <GridContainer style={{ paddingTop: "170px", paddingBottom: "200px", backgroundColor: "#e83e33"}}>>
+          <div>
+          <GridContainer style={{ paddingTop: "170px", paddingBottom: "200px", backgroundColor: "#e83e33"}}>
               <GridItem>
               <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
               fontSize: "40px"},
