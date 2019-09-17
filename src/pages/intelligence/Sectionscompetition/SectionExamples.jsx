@@ -1,6 +1,5 @@
 import React from "react";
 // react components for routing our app without refresh
-import { Link } from "gatsby";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
@@ -11,8 +10,6 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
-import landing from "assets/img/landing.jpg";
-import profile from "assets/img/profile.jpg";
 import blog1 from "assets/img/blog1.jpg";
 import blog2 from "assets/img/blog2.jpg";
 

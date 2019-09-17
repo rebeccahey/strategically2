@@ -7,8 +7,6 @@ import 'typeface-roboto';
 import 'typeface-roboto-slab';
 // pages for this product
 import Components from "./Components/Components.jsx";
-import ContactPage from "./ContactPage/ContactPage.jsx";
-
 let hist = createMemoryHistory();
 
 export default () => (

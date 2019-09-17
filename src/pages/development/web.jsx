@@ -18,7 +18,6 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Alternate1 from "./Sectionsweb/Alternate1.jsx";
 import Alternate2 from "./Sectionsweb/Alternate2.jsx";
 import Alternate3 from "./Sectionsweb/Alternate3.jsx";
-import Alternate4 from "./Sectionsweb/Alternate4.jsx";
 import SectionExamples from "./Sectionsweb/SectionExamples.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
