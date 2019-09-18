@@ -1,10 +1,20 @@
+const path = require(`path`)
+
 module.exports = {
   pathPrefix: `/mini-gatsbyv2-material-kit-react`,
   siteMetadata: {
-    title: 'Strategically.co',
-
+    title: "Strategically.co",
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `assets`, `img`),
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -15,29 +25,27 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `pt-serif`,
-            ],
-        display: 'swap'
+        fonts: [`pt-serif`],
+        display: "swap",
       },
     },
-    'gatsby-plugin-resolve-src',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    "gatsby-plugin-resolve-src",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Strategically.co London B2B and SaaS SEO Agency',
-        short_name: 'Strategically.co',
-        start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/assets/img/favicon.png', // This path is relative to the root of the site.
+        name: "Strategically.co London B2B and SaaS SEO Agency",
+        short_name: "Strategically.co",
+        start_url: "/",
+        background_color: "#663399",
+        theme_color: "#663399",
+        display: "minimal-ui",
+        icon: "src/assets/img/favicon.png", // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline',
+    "gatsby-plugin-offline",
   ],
 }
