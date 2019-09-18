@@ -1,5 +1,7 @@
 import React from "react";
 // react components for routing our app without refresh
+import { graphql, StaticQuery } from "gatsby"
+import Img from "gatsby-image"
 
 import { Link } from "gatsby";
 // @material-ui/core components
@@ -12,7 +14,18 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
-import alternate4 from "assets/img/alternate4.jpg";
+// import alternate4 from "assets/img/alternate4.jpg";
+const query = graphql`
+  query {
+    file(name: { eq: "alternate4" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
 
 class Alternate4 extends React.Component {
   render() {
@@ -26,9 +39,18 @@ class Alternate4 extends React.Component {
             <div css={{'@media (min-width: 300px) and (max-width: 800px)': {display: "flex", flexFlow: "column"}, '@media (min-width: 800px)': {display: "flex", flexFlow: "row"}}}>
 
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "2"}}}>
-              <img style={{ width: "100%"}}
+              {/* <img style={{ width: "100%"}}
                 src={alternate4}
                 alt="content strategy agency"
+              /> */}
+              <StaticQuery
+                query={query}
+                render={data => (
+                  <Img
+                    fluid={data.file.childImageSharp.fluid}
+                    alt="content strategy agency"
+                  />
+                )}
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "1"}}}>
