@@ -1,4 +1,6 @@
 import React from "react";
+import { graphql, StaticQuery } from "gatsby"
+import Img from "gatsby-image"
 // react components for routing our app without refresh
 
 import { Link } from "gatsby";
@@ -12,8 +14,18 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
-import mobile_development from "assets/img/mobile_development.jpg";
-
+// import mobile_development from "assets/img/mobile_development.jpg";
+const query = graphql`
+  query {
+    file(name: { eq: "mobile_development" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
 
 class Alternate3 extends React.Component {
   render() {
@@ -39,10 +51,19 @@ class Alternate3 extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={6}>
               <div style={{ paddingRight: "0px"}}>
-                <img style={{ width: "80%"}}
+                {/* <img style={{ width: "80%"}}
                   src={mobile_development}
                   alt="mobile development"
-                />
+                /> */}
+                <StaticQuery
+                query={query}
+                render={data => (
+                  <Img
+                    fluid={data.file.childImageSharp.fluid}
+                    alt="mobile development"
+                  />
+                )}
+              />
               </div>
             </GridItem>
           </GridContainer>
