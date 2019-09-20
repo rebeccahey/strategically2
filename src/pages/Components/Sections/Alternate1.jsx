@@ -128,6 +128,7 @@ class Alternate1 extends React.Component {
                 query={query}
                 render={data => (
                   <Img
+                    style={{ marginLeft: "30px"}}
                     fluid={data.file.childImageSharp.fluid}
                     alt="SEO strategy"
                   />

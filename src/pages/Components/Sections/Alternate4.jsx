@@ -36,7 +36,7 @@ class Alternate4 extends React.Component {
         <div className={classes.container}>
           <GridContainer justify="center">
 
-            <div css={{'@media (min-width: 300px) and (max-width: 800px)': {display: "flex", flexFlow: "column"}, '@media (min-width: 800px)': {display: "flex", flexFlow: "row"}}}>
+            <div css={{'@media (min-width: 300px) and (max-width: 800px)': {display: "flex", flexFlow: "column"}, '@media (min-width: 800px)': {display: "flex", flexFlow: "row", width: "100%"}}}>
 
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "2"}}}>
               {/* <img style={{ width: "100%"}}

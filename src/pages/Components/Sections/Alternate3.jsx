@@ -61,6 +61,7 @@ class Alternate3 extends React.Component {
                 query={query}
                 render={data => (
                   <Img
+                    style={{ marginLeft: "30px"}}
                     fluid={data.file.childImageSharp.fluid}
                     alt="lead generation for B2B and SaaS companies"
                   />

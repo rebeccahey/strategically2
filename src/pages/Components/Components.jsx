@@ -64,7 +64,7 @@ class Components extends React.Component {
             </GridContainer>
           </div>
         <div className={classNames(classes.main, classes.mainRaised)}>
-        <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
+        <div css={{'@media (min-width: 300px) and (max-width: 800px)': {}, position: 'relative', backgroundColor: '#fff', paddingTop: '30px'}}>
         <Alternate1 />
         </div>
         <Alternate2 />
