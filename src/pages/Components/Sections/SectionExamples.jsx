@@ -70,7 +70,7 @@ const BlogPost = ({ classes, linkURL, title, excerpt, image, alt }) => (
           "@media (min-width: 300px) and (max-width: 800px)": {
             width: "100%!important",
           },
-          "@media (min-width: 800px)": { width: "auto!important" },
+          "@media (min-width: 800px)": { maxWidth: "400px", margin: "0 auto" },
         }}
       />
     </Link>
