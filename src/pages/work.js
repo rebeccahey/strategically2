@@ -45,7 +45,7 @@ const Work = ({ classes, ...rest }) => (
       color="primary"
       {...rest}
     />
-    <GridContainer justify="center" alignItems="center" spacing={3}>
+    <GridContainer justify="center" spacing={3}>
       <GridItem xs={12}>
         <Box mt={"108px"} maxWidth="800px" px={3} py={8} mx="auto">
           <h1
