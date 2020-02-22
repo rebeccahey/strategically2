@@ -119,7 +119,7 @@ class Alternate2 extends React.Component {
                       },
                     }}
                   >
-                    We build beautiful software your customers will love
+                    We help tech brands simplify complex topics
                   </h2>
                   <h6
                     css={{
@@ -131,15 +131,16 @@ class Alternate2 extends React.Component {
                   >
                     _______________
                   </h6>
-                  <h4
-                    css={{
-                      "@media (min-width: 300px) and (max-width: 800px)": {
-                        textAlign: "center",
-                      },
-                    }}
-                  >
-                    02: Front & Back End Development
-                  </h4>
+                  <p
+                        css={{
+                          "@media (min-width: 300px) and (max-width: 800px)": {
+                            textAlign: "center",
+                          },
+                        }}
+                      >
+                        <img style={{ width: `35%`,}}
+                   src="/assets/images/53bdee9.svg" alt=""></img>
+                      </p>
                   <h5
                     css={{
                       "@media (min-width: 300px) and (max-width: 800px)": {
@@ -147,9 +148,7 @@ class Alternate2 extends React.Component {
                       },
                     }}
                   >
-                    Our developers build complex interfaces with agile
-                    methodologies to allow for quick iterations and efficient
-                    development.
+                    “It’s been great working with Strategically. They quickly got an understanding of our industry: our solution, users, and goals. And produced great content, always on time."
                   </h5>
                   <div
                     css={{
@@ -169,7 +168,7 @@ class Alternate2 extends React.Component {
                         color="primary"
                         size="lg"
                       >
-                        Software Development
+                        View Our Work
                       </Button>
                     </Link>
                   </div>

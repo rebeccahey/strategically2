@@ -14,6 +14,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Button from "components/CustomButtons/Button.jsx";
 import exampleStyle from "assets/jss/material-kit-react/views/componentsSections/exampleStyle.jsx";
 
+
 // import alternate4 from "assets/img/alternate4.jpg";
 const query = graphql`
   query {
@@ -55,15 +56,24 @@ class Alternate4 extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={6} css={{'@media (min-width: 300px) and (max-width: 800px)': {order: "1"}}}>
               <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "0px"}, '@media (min-width: 800px)': {paddingRight: "50px", paddingTop: "0px"}}}>
-                <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "0px"}}}>We create content that ranks and helps you rank</h2>
+                <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "0px"}}}>We scale content creation for authority blogs</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_______________</h6>
-                <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>04: Content Marketing</h4>
-                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>We take a scientific approach to creating and promoting content that ranks. Complete B2B content marketing services all under one roof.
+                <p
+        css={{
+          "@media (min-width: 300px) and (max-width: 800px)": {
+            textAlign: "center",
+          },
+        }}
+      >
+        <img style={{ width: `35%`,}}
+   src="/assets/images/Website_Planet.svg" alt=""></img>
+      </p>
+                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>"Working with Strategically has been an amazing experience. They are professional, hard-working, and extremely dedicated. I wouldn’t hesitate to recommend."
                 </h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
                   <Link to="./strategy">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    Content Strategy
+                    View Our Work
                   </Button>
                   </Link>
                 </div>

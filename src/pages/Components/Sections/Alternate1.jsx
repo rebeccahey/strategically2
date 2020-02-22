@@ -63,7 +63,7 @@ class Alternate1 extends React.Component {
                     },
                   }}
                 >
-                  We grow B2B brands with data-backed strategies
+                  We write compelling content for B2B SaaS companies
                 </h2>
                 <h6
                   css={{
@@ -75,15 +75,16 @@ class Alternate1 extends React.Component {
                 >
                   _______________
                 </h6>
-                <h4
-                  css={{
-                    "@media (min-width: 300px) and (max-width: 800px)": {
-                      textAlign: "center",
-                    },
-                  }}
-                >
-                  01: SEO Strategy
-                </h4>
+                <p
+                         css={{
+                           "@media (min-width: 300px) and (max-width: 800px)": {
+                             textAlign: "center",
+                           },
+                         }}
+                       >
+                         <img style={{ width: `35%`,}}
+                    src="/assets/images/abtasty-logo-1.svg" alt=""></img>
+                       </p>
                 <h5
                   css={{
                     "@media (min-width: 300px) and (max-width: 800px)": {
@@ -91,8 +92,7 @@ class Alternate1 extends React.Component {
                     },
                   }}
                 >
-                  We save you time and money by providing you with a data-backed
-                  strategy, so you can stop guessing and start growing.
+                  “Great experience - professional, high quality work! Great writer, autonomous, with good ideas and excellent execution.”
                 </h5>
                 <div
                   css={{
@@ -112,7 +112,7 @@ class Alternate1 extends React.Component {
                       color="primary"
                       size="lg"
                     >
-                      Search Engine Optimsation
+                      View Our Work
                     </Button>
                   </Link>
                 </div>

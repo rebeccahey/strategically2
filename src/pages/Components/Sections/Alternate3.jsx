@@ -38,14 +38,23 @@ class Alternate3 extends React.Component {
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
               <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: "20px", paddingRight: "20px", paddingBottom: "0px", paddingTop: "0px"}, '@media (min-width: 800px)': {paddingLeft: "70px", paddingTop: "0px"}}}>
-                <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "-100px"}}}>We scale lead generation for consulting companies</h2>
+                <h2 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", fontSize: "2.3rem", marginTop: "-100px"}}}>We write long-form content for agencies</h2>
                 <h6 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>_______________</h6>
-                <h4 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>03: Acquisition</h4>
-                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>We unlock untapped growth potential for high-ticket consultancy companies & SaaS businesses by building effective paid and organic lead generation funnels.</h5>
+                <p
+                         css={{
+                           "@media (min-width: 300px) and (max-width: 800px)": {
+                             textAlign: "center",
+                           },
+                         }}
+                       >
+                         <img style={{ width: `35%`,}}
+                    src="/assets/images/bubblegum.svg" alt=""></img>
+                       </p>
+                <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>"Working with Strategically has been amazing and a real pleasure, they are highly knowledgeable in regards to digital marketing. 10/10 and comes highly recommended."</h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
                   <Link to="./contact">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    Get in Touch
+                    View Our Work
                   </Button>
                   </Link>
                 </div>
