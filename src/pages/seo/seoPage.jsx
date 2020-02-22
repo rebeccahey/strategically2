@@ -70,14 +70,10 @@ class Components extends React.Component {
         <div className={classes.conatinerCta}>
         <GridContainer style={{ paddingTop: "80px", paddingBottom: "80px", backgroundColor: "#222222"}}>>
           <GridItem>
-              <h1 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "10px", paddingRight: "10px",
-              fontSize: "60px"}, '@media (min-width: 800px)': {textAlign: "center",
-              paddingLeft: "200px", paddingRight: "200px"}}}>Are you ready to 10X your growth?</h1>
-              <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "center",
-              paddingLeft: "300px", paddingRight: "300px"}}}>
-              We help you grow faster with strategy, software and data, a whole lot of data.
-              </h3>
-              <Link to="./contact">
+          <h1 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "10px", paddingRight: "10px",
+          fontSize: "60px"}, '@media (min-width: 800px)': {textAlign: "center",
+          paddingLeft: "200px", paddingRight: "200px"}}}>Let's create amazing content together</h1>
+          <Link to="./contact">
               <Button color="primary" size="lg">
                 Get in Touch
               </Button>

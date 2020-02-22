@@ -67,9 +67,9 @@ class Components extends React.Component {
         <GridContainer style={{ paddingTop: "80px", paddingBottom: "80px", backgroundColor: "#222222"}}>>
           <GridItem>
           <h1 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "10px", paddingRight: "10px",
-          fontSize: "70px"}, '@media (min-width: 800px)': {textAlign: "center",
-          paddingLeft: "240px", paddingRight: "240px"}}}>Let's create amazing content together</h1>
-              <Link to="./contact">
+          fontSize: "60px"}, '@media (min-width: 800px)': {textAlign: "center",
+          paddingLeft: "200px", paddingRight: "200px"}}}>Let's create amazing content together</h1>
+          <Link to="./contact">
               <Button color="primary" size="lg">
                 Get in Touch
               </Button>
