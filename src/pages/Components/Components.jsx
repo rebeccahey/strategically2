@@ -31,8 +31,8 @@ class Components extends React.Component {
     return (
       <div>
       <Helmet>
-      <title>SEO & Software Development Agency London | Strategically.co</title>
-      <meta name="description" content="Our marketing and development services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth." />
+      <title>SEO & Content Marketing Agency London | Strategically.co</title>
+      <meta name="description" content="Our content marketing services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth." />
       </Helmet>
       <Link to="./">
         <Header
@@ -54,12 +54,12 @@ class Components extends React.Component {
               fontSize: "40px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "180px", paddingRight: "180px", fontSize: "90px"}}}>Strategy and software to help you grow faster</h1>
+              '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "180px", paddingRight: "180px", fontSize: "90px"}}}>We write content for B2B SaaS and marketing companies.</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
             fontSize: "20px"},
             '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
             fontSize: "22px"},
-            '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "220px", paddingRight: "220px", fontSize: "22px"}}}>Our marketing and development services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth.</h3>
+            '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "220px", paddingRight: "220px", fontSize: "22px"}}}>Our content marketing services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth.</h3>
               </GridItem>
             </GridContainer>
           </div>
