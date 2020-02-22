@@ -139,7 +139,7 @@ class Alternate2 extends React.Component {
                         }}
                       >
                         <img style={{ width: `35%`,}}
-                   src="/assets/images/53bdee9.svg" alt=""></img>
+                   src="/assets/images/gmelius.svg" alt=""></img>
                       </p>
                   <h5
                     css={{
@@ -158,7 +158,7 @@ class Alternate2 extends React.Component {
                       "@media (min-width: 800px)": { textAlign: "left" },
                     }}
                   >
-                    <Link to="./development">
+                    <Link to="./work#SaaS">
                       <Button
                         css={{
                           "@media (min-width: 300px) and (max-width: 800px)": {

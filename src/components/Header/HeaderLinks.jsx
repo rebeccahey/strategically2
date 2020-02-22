@@ -27,6 +27,30 @@ function HeaderLinks({ ...props }) {
   const { classes } = props
   return (
     <List className={classes.list}>
+    <ListItem className={classes.listItem}>
+      <CustomDropdown
+        noLiPadding
+        buttonText="Our Work"
+        buttonProps={{
+          className: classes.navLink,
+          color: "transparent",
+        }}
+        dropdownList={[
+          <Link to="./work#SaaS" className={classes.dropdownLink}>
+            SaaS
+          </Link>,
+          <Link to="./work#SEO" className={classes.dropdownLink}>
+            SEO
+          </Link>,
+          <Link to="./work#CRO" className={classes.dropdownLink}>
+            CRO
+          </Link>,
+          <Link to="./work#social" className={classes.dropdownLink}>
+            Social
+          </Link>,
+        ]}
+      />
+    </ListItem>
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
@@ -44,9 +68,6 @@ function HeaderLinks({ ...props }) {
             </Link>,
             <Link to="./seo/strategy" className={classes.dropdownLink}>
               SEO Content Strategy
-            </Link>,
-            <Link to="./seo/in-house" className={classes.dropdownLink}>
-              In-House SEO Setup
             </Link>,
           ]}
         />

@@ -31,7 +31,7 @@ class Components extends React.Component {
     return (
       <div>
       <Helmet>
-      <title>SEO & Content Marketing Agency London | Strategically.co</title>
+      <title>Content Marketing Agency London | Strategically.co</title>
       <meta name="description" content="Our content marketing services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth." />
       </Helmet>
       <Link to="./">
@@ -51,10 +51,10 @@ class Components extends React.Component {
           <GridContainer style={{ paddingTop: "170px", paddingBottom: "200px", backgroundColor: "#e83e33"}}>
               <GridItem>
               <h1 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
-              fontSize: "40px"},
+              fontSize: "38px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "180px", paddingRight: "180px", fontSize: "90px"}}}>We write content for B2B SaaS and marketing companies.</h1>
+              '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "160px", paddingRight: "160px", fontSize: "80px"}}}>Taking B2B & SaaS content marketing to an entirely new level.</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
             fontSize: "20px"},
             '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
@@ -77,11 +77,7 @@ class Components extends React.Component {
             <GridItem>
                 <h1 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "10px", paddingRight: "10px",
                 fontSize: "70px"}, '@media (min-width: 800px)': {textAlign: "center",
-                paddingLeft: "200px", paddingRight: "200px"}}}>How can we help?</h1>
-                <h3 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "30px", paddingRight: "30px"}, '@media (min-width: 800px)': {textAlign: "center",
-                paddingLeft: "300px", paddingRight: "300px"}}}>
-We help great brands scale with SEO-focused content marketing.
-                </h3>
+                paddingLeft: "240px", paddingRight: "240px"}}}>Let's create amazing content together</h1>
                 <Link to="./contact">
                 <Button color="primary" size="lg">
                   Get in Touch

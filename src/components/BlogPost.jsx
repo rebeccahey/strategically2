@@ -1,11 +1,13 @@
 import React from "react"
 import GridItem from "components/Grid/GridItem.jsx"
 import Box from "@material-ui/core/Box"
+import Button from "components/CustomButtons/Button.jsx"
+import { Link } from "gatsby"
 
 const BlogPost = ({ title, excerpt, imageURL, imageAlt, logoURL, logoAlt, linkURL }) => (
   // <a href={linkURL} target="_blank" rel="noreferrer noopener">
     <GridItem xs={12} md={6} textAlign="left">
-      <Box maxWidth="400px" mx="auto" textAlign="left" px={3}>
+      <Box maxWidth="500px" mx="auto" textAlign="left" px={3}>
         <img
           src={imageURL}
           alt={imageAlt}
@@ -22,10 +24,9 @@ const BlogPost = ({ title, excerpt, imageURL, imageAlt, logoURL, logoAlt, linkUR
           src={logoURL}
           alt={logoAlt}
           css={{
-            marginTop: "24px",
-            height: "20px",
+            marginTop: "14px",
+            height: "40px",
             width: "auto",
-            filter: "grayscale(100%)",
           }}
         />
         <Box
@@ -38,11 +39,20 @@ const BlogPost = ({ title, excerpt, imageURL, imageAlt, logoURL, logoAlt, linkUR
         >
           {title}
         </Box>
-        <Box component="p" fontSize={18}>
-          {excerpt}
-        </Box>
+        <a href={linkURL}>
+                      <Button
+                        css={{
+                          "@media (min-width: 300px) and (max-width: 800px)": {
+                            fontSize: "1.7rem",
+                          },
+                        }}
+                        color="primary"
+                        size="lg"
+
+                      >
+                        Read Article
+                      </Button> </a>
       </Box>
-        <a href={linkURL} target="_blank" rel="noreferrer noopener">Read the full article</a>
     </GridItem>
   // </a>
 )
