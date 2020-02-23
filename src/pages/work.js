@@ -12,6 +12,7 @@ import Box from "@material-ui/core/Box"
 import Button from "@material-ui/core/Button"
 import BlogPost from "components/BlogPost"
 import BlogCategory from "components/BlogCategory"
+import { Link } from "gatsby"
 
 import blog1 from "assets/img/blog1.jpg"
 import blog2 from "assets/img/blog2.jpg"
@@ -242,7 +243,21 @@ const Work = ({ classes, ...rest }) => (
         logoURL="/assets/images/Website_Planet.svg"
       />
     </GridContainer>
-    <Footer />
+    <div className={classes.conatinerCta}>
+      <GridContainer style={{ paddingTop: "80px", paddingBottom: "80px", backgroundColor: "#222222"}}>>
+        <GridItem>
+            <h1 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "10px", paddingRight: "10px",
+            fontSize: "70px"}, '@media (min-width: 800px)': {textAlign: "center",
+            paddingLeft: "240px", paddingRight: "240px"}}}>Let's create amazing content together</h1>
+            <Link to="./contact">
+            <Button color="primary" size="lg">
+              Get in Touch
+            </Button>
+            </Link>
+        </GridItem>
+      </GridContainer>
+    <Footer/>
+    </div>
   </>
 )
 
