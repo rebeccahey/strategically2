@@ -63,37 +63,37 @@ const Work = ({ classes, ...rest }) => (
       <BlogPost
         title="Business Goals, Audiences & Value Props"
         linkURL="https://strategically.co/blog/seo-strategy#understanding-business-goals-audiences-and-value-propositions"
-        imageURL="/assets/images/seo3.jpg"
+        imageURL="/assets/images/seo2.jpg"
       />
       <BlogPost
         title="How to Do In-Depth Keyword Research"
         linkURL="https://strategically.co/blog/seo-strategy#keyword-research"
-        imageURL="/assets/images/seo5.jpg"
+        imageURL="/assets/images/seo3.jpg"
       />
       <BlogPost
         title="Conducting Opportunity & Gap Analysis"
         linkURL="https://strategically.co/blog/seo-strategy#opportunity--gap-analysis"
-        imageURL="/assets/images/seo2.jpg"
+        imageURL="/assets/images/seo4.jpg"
       />
       <BlogPost
         title="Who Are Your Competitors?"
         linkURL="https://strategically.co/blog/seo-strategy#who-are-your-competitors"
-        imageURL="/assets/images/seo4.jpg"
+        imageURL="/assets/images/seo5.jpg"
       />
       <BlogPost
         title="Analysing the Competitive Landscape"
         linkURL="https://strategically.co/blog/seo-strategy#analysing-the-competitive-landscape"
-        imageURL="/assets/images/seo5.jpg"
+        imageURL="/assets/images/seo6.jpg"
       />
       <BlogPost
         title="SEO Strategy & Recommendations"
         linkURL="https://strategically.co/blog/seo-strategy#seo-strategy--recommendations"
-        imageURL="/assets/images/seo6.jpg"
+        imageURL="/assets/images/seo7.jpg"
       />
       <BlogPost
         title="Prioritisation and Cost Benefit Analysis"
         linkURL="https://strategically.co/blog/seo-strategy#Prioritisation-and-cost-benefit-analysis"
-        imageURL="/assets/images/seo7.jpg"
+        imageURL="/assets/images/seo8.jpg"
       />
     </GridContainer>
     <div className={classes.conatinerCta}>
