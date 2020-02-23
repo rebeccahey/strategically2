@@ -8,6 +8,7 @@ const BlogPost = ({ title, excerpt, imageURL, imageAlt, logoURL, logoAlt, linkUR
   // <a href={linkURL} target="_blank" rel="noreferrer noopener">
     <GridItem xs={12} md={6} textAlign="left">
       <Box maxWidth="500px" mx="auto" textAlign="left" px={3}>
+      
         <img
           src={imageURL}
           alt={imageAlt}
@@ -39,6 +40,7 @@ const BlogPost = ({ title, excerpt, imageURL, imageAlt, logoURL, logoAlt, linkUR
         >
           {title}
         </Box>
+
         <a href={linkURL}>
                       <Button
                         css={{

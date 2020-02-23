@@ -10,6 +10,7 @@ import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import Box from "@material-ui/core/Box"
 import Button from "@material-ui/core/Button"
+import CustomButton from "components/CustomButtons/Button.jsx";
 import BlogPost from "components/BlogPost"
 import BlogCategory from "components/BlogCategory"
 import { Link } from "gatsby"
@@ -250,13 +251,12 @@ const Work = ({ classes, ...rest }) => (
             fontSize: "70px"}, '@media (min-width: 800px)': {textAlign: "center",
             paddingLeft: "240px", paddingRight: "240px"}}}>Let's create amazing content together</h1>
             <Link to="./contact">
-            <Button color="primary" size="lg">
+            <CustomButton color="primary" size="lg">
               Get in Touch
-            </Button>
+            </CustomButton>
             </Link>
         </GridItem>
       </GridContainer>
-    <Footer/>
     </div>
   </>
 )

@@ -121,6 +121,23 @@ function HeaderLinks({ ...props }) {
         />
       </ListItem>
       <ListItem className={classes.listItem}>
+        <Link to="/blog">
+          <Button
+            color="transparent"
+            target=""
+            css={{
+              "@media (min-width: 300px) and (max-width: 800px)": {
+                color: "#4b5665!important",
+              },
+              "@media (min-width: 800px)": { color: "#fff!important" },
+            }}
+            className={classes.navLink}
+          >
+            Blog
+          </Button>
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
         <Link to="/contact">
           <Button
             color="transparent"
