@@ -83,7 +83,7 @@ const Work = ({ classes, ...rest }) => (
         </GridItem>
       </GridContainer>
 
-      <BlogCategory title="SaaS" sectionID="SaaS" />
+      <BlogCategory title="SaaS Portfolio" sectionID="SaaS" />
       <BlogPost
         title="Your Guide to Organizational Alignment (And Why It's Important)"
         linkURL="https://gmelius.com/blog/guide-to-organizational-alignment"
@@ -120,7 +120,7 @@ const Work = ({ classes, ...rest }) => (
         imageURL="/assets/images/blog8.png"
         logoURL="/assets/images/gmelius.svg"
       />
-      <BlogCategory title="SEO" sectionID="SEO" />
+      <BlogCategory title="SEO Portfolio" sectionID="SEO" />
       <BlogPost
         title="A 10-Step SEO Plan to Rank Higher in 2020"
         linkURL="https://www.bubblegumsearch.com/blog/seo-plan/"
@@ -157,7 +157,7 @@ const Work = ({ classes, ...rest }) => (
         imageURL="/assets/images/blog14.png"
         logoURL="/assets/images/Strategically.svg"
       />
-      <BlogCategory title="CRO" sectionID="CRO" />
+      <BlogCategory title="CRO & Ecommerce Portfolio" sectionID="CRO" />
       <BlogPost
         title="5 Effective Ways to Increase the Average Order Value of Your Ecommerce Store"
         linkURL="https://www.adscale.com/2020/02/06/5-highly-effective-ways-to-increase-the-average-order-value-of-your-ecommerce-store/"
@@ -206,7 +206,7 @@ const Work = ({ classes, ...rest }) => (
         imageURL="/assets/images/blog25.png"
         logoURL="/assets/images/ab_tasty.svg"
       />
-      <BlogCategory title="Social" sectionID="social" />
+      <BlogCategory title="Social Media Portfolio" sectionID="social" />
       <BlogPost
         title="How to Get More Instagram Followers for Your Retail Brand"
         linkURL="https://www.abtasty.com/blog/instagram-followers/"
