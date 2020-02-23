@@ -31,6 +31,13 @@ module.exports = {
        enableImprovedAccessibility: false // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
      },
        },
+       {
+    resolve: `gatsby-plugin-hotjar`,
+    options: {
+      id: '1700840',
+      sv: 'h._hjSettings={hjid:1700840,hjsv:6}',
+    },
+  },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
