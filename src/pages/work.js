@@ -79,7 +79,7 @@ const Work = ({ classes, ...rest }) => (
           <StyledButton href="#CRO">CRO</StyledButton>
         </GridItem>
         <GridItem xs={6} md={3}>
-          <StyledButton href="#social">Social</StyledButton>
+          <StyledButton href="#social">SEM</StyledButton>
         </GridItem>
       </GridContainer>
 
