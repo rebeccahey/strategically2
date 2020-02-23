@@ -36,6 +36,12 @@ const StyledButton = withStyles({
 
 const Work = ({ classes, ...rest }) => (
   <>
+  <div>
+  <Helmet>
+  <title>B2B & SaaS Content Marketing Blog | Strategically.co</title>
+  <meta name="description" content="B2B & SaaS Content Marketing Blog" />
+  </Helmet>
+  </div>
     <Header
       brand="Strategically"
       rightLinks={<HeaderLinks />}
