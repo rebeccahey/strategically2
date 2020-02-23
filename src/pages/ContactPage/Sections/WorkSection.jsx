@@ -24,7 +24,7 @@ class WorkSection extends React.Component {
           <GridItem cs={12} sm={12} md={8}>
             <h2 style={{ textAlign: "center", marginTop: "0px"}}>Get in touch</h2>
             <h3 style={{ textAlign: "center", color: "#1E2122"}}>
-            Send us your questions below or give us a call at 07882090659
+            Send your questions below, message us on live chat or call us on 07882 090 659. We look forward to hearing from you.
             </h3>
             <form name="contact" action="/" method="POST" data-netlify="true" netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="contact" />
