@@ -10,7 +10,7 @@ import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import Box from "@material-ui/core/Box"
 import Button from "@material-ui/core/Button"
-import RegularButton from "components/CustomButtons/Button.jsx";
+import RegularButton from "components/CustomButtons/Button.jsx"
 import BlogPost from "components/BlogPost"
 import BlogCategory from "components/BlogCategory"
 import { Link } from "gatsby"
@@ -40,12 +40,6 @@ const StyledButton = withStyles({
 
 const Work = ({ classes, ...rest }) => (
   <>
-  <div>
-  <Helmet>
-  <title>B2B & SaaS Content Marketing Portfolio | Strategically.co</title>
-  <meta name="description" content="B2B & SaaS Content Marketing Portfolio" />
-  </Helmet>
-  </div>
     <Header
       brand="Strategically"
       rightLinks={<HeaderLinks />}

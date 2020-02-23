@@ -4,12 +4,12 @@ import withStyles from "@material-ui/core/styles/withStyles"
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx"
 
 import Header from "components/Header/Header.jsx"
-import Footer from "components/Footer/Footer.jsx"
 import HeaderLinks from "components/Header/HeaderLinks.jsx"
 import GridContainer from "components/Grid/GridContainer.jsx"
 import GridItem from "components/Grid/GridItem.jsx"
 import Box from "@material-ui/core/Box"
 import Button from "@material-ui/core/Button"
+import RegularButton from "components/CustomButtons/Button.jsx"
 import BlogPost from "components/BlogPost"
 import BlogCategory from "components/BlogCategory"
 import { Link } from "gatsby"
@@ -36,12 +36,6 @@ const StyledButton = withStyles({
 
 const Work = ({ classes, ...rest }) => (
   <>
-  <div>
-  <Helmet>
-  <title>B2B & SaaS Content Marketing Blog | Strategically.co</title>
-  <meta name="description" content="B2B & SaaS Content Marketing Blog" />
-  </Helmet>
-  </div>
     <Header
       brand="Strategically"
       rightLinks={<HeaderLinks />}
@@ -63,17 +57,17 @@ const Work = ({ classes, ...rest }) => (
       </GridItem>
       <BlogPost
         title="The 7 Steps To A Killer SEO Strategy"
-        linkURL="https://strategically.co/blog/seo-strategy"
+        linkURL="./blog/seo-strategy"
         imageURL="/assets/images/seo1.jpg"
       />
       <BlogPost
         title="Business Goals, Audiences & Value Props"
-        linkURL="https://strategically.co/blog/seo-strategy#understanding-business-goals-audiences-and-value-propositions"
+        linkURL="./blog/seo-strategy#understanding-business-goals-audiences-and-value-propositions"
         imageURL="/assets/images/seo2.jpg"
       />
       <BlogPost
         title="How to Do In-Depth Keyword Research"
-        linkURL="https://strategically.co/blog/seo-strategy#keyword-research"
+        linkURL="./blog/seo-strategy#keyword-research"
         imageURL="/assets/images/seo3.jpg"
       />
       <BlogPost
@@ -109,9 +103,9 @@ const Work = ({ classes, ...rest }) => (
             fontSize: "70px"}, '@media (min-width: 800px)': {textAlign: "center",
             paddingLeft: "240px", paddingRight: "240px"}}}>Let's create amazing content together</h1>
             <Link to="./contact">
-            <Button color="primary" size="lg">
+            <RegularButton color="primary" size="lg">
               Get in Touch
-            </Button>
+            </RegularButton>
             </Link>
         </GridItem>
       </GridContainer>
