@@ -56,9 +56,9 @@ const Work = ({ classes, ...rest }) => (
               color: "#000",
             }}
           >
-            We write blog posts and white papers for B2B SaaS and marketing companies.  </h1>
+            We Write Blog Posts and White Papers for B2B, Saas and Marketing Companies </h1>
           <p css={{ textAlign: "center" }}>
-          Our clients include wonderful companies like AB Tasty, Gmelius, Bubblegum Search and WebsitePlanet.
+        We work with great companies, including AB Tasty, Gmelius, Bubblegum Search and Website Planet.
           </p>
     </Box>
       </GridItem>

@@ -55,7 +55,7 @@ class Components extends React.Component {
               fontSize: "38px"},
               '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
               fontSize: "60px"},
-              '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "160px", paddingRight: "160px", fontSize: "80px"}}}>Taking B2B & SaaS content marketing to an entirely new level.</h1>
+              '@media (min-width: 800px)': {textAlign: "center", paddingLeft: "160px", paddingRight: "160px", fontSize: "80px"}}}>Taking Content Marketing to an Entirely New Level</h1>
               <h3 css={{'@media (min-width: 300px) and (max-width: 400px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
             fontSize: "20px"},
             '@media (min-width: 400px) and (max-width: 800px)': {textAlign: "center", paddingLeft: "25px", paddingRight: "25px",
@@ -86,7 +86,7 @@ class Components extends React.Component {
                 </Link>
             </GridItem>
           </GridContainer>
-      
+
         </div>
       </div>
     );

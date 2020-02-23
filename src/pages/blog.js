@@ -52,7 +52,7 @@ const Work = ({ classes, ...rest }) => (
               color: "#000",
             }}
           >
-          B2B & SaaS Content Marketing Blog </h1>
+          B2B, Saas & Marketing Blog </h1>
     </Box>
       </GridItem>
       <BlogPost2
@@ -98,7 +98,7 @@ const Work = ({ classes, ...rest }) => (
         imageURL="/assets/images/seo7.jpg"
       />
       <BlogPost2
-        title="Prioritisation and Cost Benefit Analysis"
+        title="Prioritisation & Cost Benefit Analysis"
         excerpt="The goal of a strategy is not to overload a business. It is to provide actionable steps, in order of priority, to take your business from its current position to reigning supreme on the web."
         linkURL="./blog/seo-strategy#Prioritisation-and-cost-benefit-analysis"
         imageURL="/assets/images/seo8.jpg"
