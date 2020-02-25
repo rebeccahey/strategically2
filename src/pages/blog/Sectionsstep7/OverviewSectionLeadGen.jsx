@@ -65,14 +65,14 @@ class OverviewSectionLeadGen extends React.Component {
 <img style={{ width: `100%`,}}
                    src="/assets/images/Lead_generation_for_consulting_companies_3.jpg" alt="lead generation for consulting companies"></img>
 <h2 style={{ fontSize: "40px",}}>Use Adroll, Facebook or LinkedIn Retargeting to Drive Returning Visitors</h2>
-<p>Creating custom audiences and promoting content and adverts at your custom audiences can be a very effective tactic to assist your conversions. It is very rare that a user will convert on their first visit to the website, so help your customers remember your brand after the initial touch by using adverts and promoted content.&nbsp;&nbsp;</p>
+<p>Promoting content and adverts at your custom audiences can be a very effective tactic to assist your conversions. It is very rare that a user will convert on their first visit to the website, so help your customers remember your brand after the initial touch by using adverts and promoted content.&nbsp;&nbsp;</p>
 <img style={{ width: `100%`,}}
                    src="/assets/images/lead_generation_for_consulting_companies_4.jpg" alt="lead generation for consulting companies"></img>
 <h2 style={{ fontSize: "40px",}}>Create More Case Studies</h2>
 <p>Creating quality case studies always helps. Always remember to tie your case studies back to revenue. This is a great example from salesprocess.io showing net cash flow by the source after they started working with a firm. What better way to prove the value that your services add?</p>
 <img style={{ width: `100%`,}}
                    src="/assets/images/Lead_generation_f0r_consulting_companies_5.png" alt=""></img>
-<h2 style={{ fontSize: "40px",}}>Create a Glossary Of Terms Which Relate to Your Niche</h2>
+<h2 style={{ fontSize: "40px",}}>Create a Glossary of Terms Which Relate to Your Niche</h2>
 <p>Creating a glossary of terms might seem like a waste of energy; however, this simple tactic can generate a lot of quality links which will help your content rank. The key to building a glossary that works is to create a single page per term using the following URL structure: www.example.com/glossary/glossary-term/. This ensures that every glossary term page is highly specific for the search query.</p>
 <img style={{ width: `100%`,}}
                    src="/assets/images/lead_generation_for_consulting_companies_6.jpg" alt="lead generation for consulting companies"></img>
