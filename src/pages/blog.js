@@ -56,6 +56,12 @@ const Work = ({ classes, ...rest }) => (
     </Box>
       </GridItem>
       <BlogPost2
+        title="How to Generate Leads for a Consulting Business"
+        excerpt="The volume of leads of each consulting firm will vary greatly depending on your niche and the power of your brand in a given niche. At Strategically we focus on creating and promoting high-quality leads."
+        linkURL="./blog/lead-generation-for-consulting-companies"
+        imageURL="/assets/images/seo9.jpg"
+      />
+      <BlogPost2
         title="The 7 Steps To A Killer SEO Strategy"
         excerpt="An effective SEO strategy organises your website’s content and architecture by topic to support your business goals, meet your customer needs and inform Google of a users searching intent."
         linkURL="./blog/seo-strategy"
