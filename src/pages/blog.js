@@ -57,7 +57,7 @@ const Work = ({ classes, ...rest }) => (
       </GridItem>
       <BlogPost2
         title="How to Generate Leads for a Consulting Business"
-        excerpt="The volume of leads of each consulting firm will vary greatly depending on your niche and the power of your brand in a given niche. At Strategically we focus on creating and promoting high-quality leads."
+        excerpt="The volume of leads of each consulting firm will vary greatly depending on your niche and the power of your brand in a given niche."
         linkURL="./blog/lead-generation-for-consulting-companies"
         imageURL="/assets/images/seo9.jpg"
       />
