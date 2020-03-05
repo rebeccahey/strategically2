@@ -102,7 +102,7 @@ class Alternate1 extends React.Component {
                     "@media (min-width: 800px)": { textAlign: "left" },
                   }}
                 >
-                  <Link to="./work#SaaS">
+                  <Link to="./contact">
                     <Button
                       css={{
                         "@media (min-width: 300px) and (max-width: 800px)": {
@@ -112,7 +112,7 @@ class Alternate1 extends React.Component {
                       color="primary"
                       size="lg"
                     >
-                      View Our Work
+                      Get a Quote
                     </Button>
                   </Link>
                 </div>

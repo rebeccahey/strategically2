@@ -150,7 +150,7 @@ function HeaderLinks({ ...props }) {
             }}
             className={classes.navLink}
           >
-            Contact
+            Get a Quote
           </Button>
         </Link>
       </ListItem>

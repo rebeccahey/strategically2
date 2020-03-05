@@ -81,7 +81,7 @@ class Components extends React.Component {
                 paddingLeft: "240px", paddingRight: "240px"}}}>Let's create amazing content together</h1>
                 <Link to="./contact">
                 <Button color="primary" size="lg">
-                  Get in Touch
+                  Get a Quote
                 </Button>
                 </Link>
             </GridItem>

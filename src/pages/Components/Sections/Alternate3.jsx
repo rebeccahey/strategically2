@@ -52,9 +52,9 @@ class Alternate3 extends React.Component {
                        </p>
                 <h5 css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}}}>"Working with Strategically has been amazing and a real pleasure, they are highly knowledgeable in regards to digital marketing. 10/10 and comes highly recommended."</h5>
                 <div css={{'@media (min-width: 300px) and (max-width: 800px)': {textAlign: "center"}, '@media (min-width: 800px)': {textAlign: "left"}}}>
-                  <Link to="./work#SEO">
+                  <Link to="./contact">
                   <Button css={{'@media (min-width: 300px) and (max-width: 800px)': {fontSize: "1.7rem"}}} color="primary" size="lg">
-                    View Our Work
+                    Get a Quote
                   </Button>
                   </Link>
                 </div>

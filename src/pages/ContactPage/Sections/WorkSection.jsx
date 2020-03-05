@@ -22,7 +22,7 @@ class WorkSection extends React.Component {
       <div css={{'@media (min-width: 300px) and (max-width: 800px)': {paddingLeft: '30px', paddingRight: '30px'}}}>
         <GridContainer justify="center">
           <GridItem cs={12} sm={12} md={8}>
-            <h2 style={{ textAlign: "center", marginTop: "0px"}}>Get in touch</h2>
+            <h2 style={{ textAlign: "center", marginTop: "0px"}}>Get a Quote</h2>
             <h3 style={{ textAlign: "center", color: "#1E2122"}}>
             Send your questions below, message us on live chat or call us on 07882 090 659. We look forward to hearing from you.
             </h3>
