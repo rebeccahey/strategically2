@@ -13,6 +13,16 @@ module.exports = {
     },
   },
   {
+    resolve: `gatsby-plugin-linkedin-insight`,
+    options: {
+      partnerId: `507715779`,
+
+      // Include LinkedIn Insight in development.
+      // Defaults to false meaning LinkedIn Insight will only be loaded in production.
+      includeInDevelopment: false
+    }
+  }
+  {
   resolve: `gatsby-plugin-facebook-pixel`,
   options: {
     pixelId: '1650318571874644',
