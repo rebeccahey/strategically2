@@ -12,6 +12,12 @@ module.exports = {
       id: "GTM-T35RVN5",
     },
   },
+  {
+  resolve: `gatsby-plugin-facebook-pixel`,
+  options: {
+    pixelId: '1650318571874644',
+  },
+},
     {
       resolve: `gatsby-source-filesystem`,
       options: {
