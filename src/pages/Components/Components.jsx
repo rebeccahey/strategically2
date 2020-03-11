@@ -35,6 +35,7 @@ class Components extends React.Component {
       <title>Content Marketing Agency London | Strategically.co</title>
       <meta name="description" content="Our content marketing services are SEO-focused, customer-driven and proven to deliver. We’ll get you the traffic, links and rankings that drive big growth." />
       </Helmet>
+
       <Link to="./">
         <Header
           brand="Strategically"
